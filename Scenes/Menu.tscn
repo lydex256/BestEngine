@@ -1,9 +1,9 @@
 [gd_scene load_steps=12 format=3 uid="uid://bvpmhxwervvae"]
 
-[ext_resource type="Script" path="res://Scripts/ChangeSceneEditor.gd" id="1_73ih3"]
-[ext_resource type="Script" path="res://Scripts/Create.gd" id="2_5aitb"]
-[ext_resource type="Script" path="res://Scripts/InformationMenu/HideInformation.gd" id="3_fr34f"]
-[ext_resource type="Script" path="res://Scripts/InformationMenuShow.gd" id="3_j7cwt"]
+[ext_resource type="Script" uid="uid://cs1058cl078ue" path="res://Scripts/ChangeSceneEditor.gd" id="1_73ih3"]
+[ext_resource type="Script" uid="uid://dcg7cc4xjk1nh" path="res://Scripts/Create.gd" id="2_5aitb"]
+[ext_resource type="Script" uid="uid://dyrx7ywxpm3x7" path="res://Scripts/InformationMenu/HideInformation.gd" id="3_fr34f"]
+[ext_resource type="Script" uid="uid://upndpg6ha5dj" path="res://Scripts/InformationMenuShow.gd" id="3_j7cwt"]
 
 [sub_resource type="CanvasTexture" id="CanvasTexture_0um7n"]
 

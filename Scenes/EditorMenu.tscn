@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://crm1cekpolbyw"]
 
-[ext_resource type="Script" path="res://Scripts/MenuEditor/EditorMenu.gd" id="1_4f1xh"]
+[ext_resource type="Script" uid="uid://cepgck1qhp7xv" path="res://Scripts/MenuEditor/EditorMenu.gd" id="1_4f1xh"]
 
 [sub_resource type="CanvasTexture" id="CanvasTexture_f3wqf"]
 

@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://2x7q0yy2f7be"]
 
-[ext_resource type="Script" path="res://addons/project_zip/project_zip_complete_dlg.gd" id="1_d0a3t"]
+[ext_resource type="Script" uid="uid://cwritcvd4lplp" path="res://addons/project_zip/project_zip_complete_dlg.gd" id="1_d0a3t"]
 
 [node name="ProjectZipCompleteDlg" type="Window"]
 title = "Project Zip File Created"
