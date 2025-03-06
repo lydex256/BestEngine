@@ -1,0 +1,112 @@
+[gd_scene load_steps=3 format=3 uid="uid://crm1cekpolbyw"]
+
+[ext_resource type="Script" path="res://Scripts/MenuEditor/EditorMenu.gd" id="1_4f1xh"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_f3wqf"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_4f1xh")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+visible = false
+layout_mode = 0
+offset_right = 1155.0
+offset_bottom = 656.0
+
+[node name="TextureRect" type="TextureRect" parent="ColorRect"]
+layout_mode = 0
+offset_right = 1154.0
+offset_bottom = 650.0
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+modulate = Color(0.168627, 0.168627, 0.168627, 0.882353)
+position = Vector2(1030, 323)
+scale = Vector2(254, 656)
+texture = SubResource("CanvasTexture_f3wqf")
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 909.0
+offset_right = 1058.0
+offset_bottom = 38.0
+theme_override_font_sizes/font_size = 25
+text = "Menu Editor"
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 0
+offset_left = 911.0
+offset_top = 41.0
+offset_right = 1145.0
+offset_bottom = 88.0
+theme_override_font_sizes/font_size = 25
+text = "UI Elements"
+
+[node name="Button2" type="Button" parent="."]
+layout_mode = 0
+offset_left = 911.0
+offset_top = 94.0
+offset_right = 1145.0
+offset_bottom = 138.0
+theme_override_font_sizes/font_size = 25
+text = "Load Tiled"
+
+[node name="Control" type="Control" parent="."]
+visible = false
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Button3" type="Button" parent="Control"]
+layout_mode = 0
+offset_left = 72.0
+offset_top = 170.0
+offset_right = 214.0
+offset_bottom = 213.0
+theme_override_font_sizes/font_size = 25
+text = "Play"
+
+[node name="Button" type="Button" parent="Control"]
+layout_mode = 0
+offset_left = 72.0
+offset_top = 216.0
+offset_right = 214.0
+offset_bottom = 259.0
+theme_override_font_sizes/font_size = 25
+text = "Exit"
+
+[node name="LineEdit" type="LineEdit" parent="Control"]
+layout_mode = 0
+offset_left = 72.0
+offset_top = 127.0
+offset_right = 277.0
+offset_bottom = 158.0
+placeholder_text = "Name Game"
+
+[node name="FileDialog" type="FileDialog" parent="."]
+title = "Open a File"
+initial_position = 2
+size = Vector2i(338, 300)
+ok_button_text = "Открыть"
+dialog_hide_on_ok = true
+file_mode = 0
+access = 2
+show_hidden_files = true
+
+[node name="Button3" type="Button" parent="."]
+layout_mode = 0
+offset_left = 1059.0
+offset_top = 606.0
+offset_right = 1147.0
+offset_bottom = 643.0
+text = "Exit Editor"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Button2" to="." method="_on_button_2_pressed"]
+[connection signal="file_selected" from="FileDialog" to="." method="_on_file_dialog_file_selected"]
+[connection signal="pressed" from="Button3" to="." method="_on_button_3_pressed"]

@@ -1,0 +1,2384 @@
+[gd_scene load_steps=118 format=3 uid="uid://bsyskernfcwji"]
+
+[ext_resource type="Script" path="res://Scripts/LoadImage.gd" id="1_qq0ej"]
+[ext_resource type="Script" path="res://Scripts/Elements/ElementsShow.gd" id="2_gtjqi"]
+[ext_resource type="Script" path="res://Scripts/DropImage.gd" id="2_obwso"]
+[ext_resource type="Script" path="res://Scripts/SceneHide.gd" id="3_8hr8r"]
+[ext_resource type="Script" path="res://Scripts/LoadPersonImage.gd" id="4_05hxo"]
+[ext_resource type="Script" path="res://Scripts/Elements/ElementsWindowHide.gd" id="4_pckow"]
+[ext_resource type="Script" path="res://Scripts/Play.gd" id="5_e2fp5"]
+[ext_resource type="Script" path="res://Scripts/Image/LoadImageButton2.gd" id="6_kugiy"]
+[ext_resource type="Script" path="res://Scripts/VisualScripting/VisualShow.gd" id="7_543ix"]
+[ext_resource type="Script" path="res://Scripts/Image/ButtonClose1.gd" id="7_gw5dn"]
+[ext_resource type="Script" path="res://Scripts/Image/InageHide.gd" id="9_kaih4"]
+[ext_resource type="Script" path="res://Scripts/Image/ImageHide1.gd" id="10_aau0c"]
+[ext_resource type="Script" path="res://Scripts/Image/ImageHide2.gd" id="11_mh5a4"]
+[ext_resource type="Script" path="res://Scripts/Image/ImageHide4.gd" id="12_5qkn1"]
+[ext_resource type="Script" path="res://Scripts/Image/ImageHide3.gd" id="12_ge8jy"]
+[ext_resource type="Script" path="res://Scripts/Image/ImageHide5.gd" id="14_e1yxg"]
+[ext_resource type="Script" path="res://Scripts/Image/HideImage7.gd" id="15_w6ah3"]
+[ext_resource type="Script" path="res://Scripts/Image/ImageHide6.gd" id="15_y422q"]
+[ext_resource type="Script" path="res://Scripts/LoadTiled.gd" id="16_0lqxe"]
+[ext_resource type="Script" path="res://Scripts/Colider.gd" id="16_o3tqc"]
+[ext_resource type="Script" path="res://Scripts/Image/HideImage8.gd" id="17_ovta4"]
+[ext_resource type="Script" path="res://Scripts/VisualScripting/VisualHide.gd" id="20_7hha3"]
+[ext_resource type="Texture2D" uid="uid://cfk4vcmspya5e" path="res://Scripts/VisualScripting/Image/S.png" id="20_7ot3q"]
+[ext_resource type="Script" path="res://Scripts/Elements/HideWindow.gd" id="21_8vhm8"]
+[ext_resource type="Texture2D" uid="uid://b6xhyrwdmvcx3" path="res://Scripts/VisualScripting/Image/D.png" id="21_dg5k4"]
+[ext_resource type="Texture2D" uid="uid://dtdlc4end2jw3" path="res://Scripts/VisualScripting/Image/Sh.png" id="22_cy82k"]
+[ext_resource type="Script" path="res://Scripts/Elements/MaterialsY.gd" id="22_eef6k"]
+[ext_resource type="Script" path="res://Scripts/Elements/MaterialsVisible.gd" id="23_q5wq0"]
+[ext_resource type="Script" path="res://Scripts/Elements/MaterialsR.gd" id="25_b7fqo"]
+[ext_resource type="Script" path="res://Scripts/VisualScripting/BlockStartProject.gd" id="26_5wx8j"]
+[ext_resource type="Script" path="res://Scripts/Elements/MaterialsF.gd" id="26_deu60"]
+[ext_resource type="Script" path="res://Scripts/Image/hhhide.gd" id="26_kth4d"]
+[ext_resource type="Script" path="res://Scripts/SettingsEditor/Acrylic.gd" id="28_e2x3g"]
+[ext_resource type="Script" path="res://Scripts/SettingsEditor/SettingsEditorHide.gd" id="28_fbgjy"]
+[ext_resource type="Script" path="res://Scripts/VisualScripting/BlockShow.gd" id="29_alboy"]
+[ext_resource type="PackedScene" uid="uid://704xmg5nekb0" path="res://Scenes/Resources/character.tscn" id="31_3qyf2"]
+[ext_resource type="Script" path="res://Scripts/ButtonClassPanel.gd" id="32_8lxn8"]
+[ext_resource type="Script" path="res://Scripts/CameraController/CameraControllerWindowHide.gd" id="33_xifnv"]
+[ext_resource type="Script" path="res://Scripts/Scene/EditorScene1.gd" id="35_6h3d7"]
+[ext_resource type="Script" path="res://Scripts/CameraController/CameraEnable.gd" id="36_33aqm"]
+[ext_resource type="Script" path="res://Scripts/ResourcesWindowHide.gd" id="36_bibm5"]
+[ext_resource type="PackedScene" uid="uid://doh3txatssjvr" path="res://Scenes/Resources/ResourcesWIndow.tscn" id="36_ebbl3"]
+[ext_resource type="Script" path="res://Scripts/OptionB.gd" id="38_r4mt3"]
+[ext_resource type="Script" path="res://Scripts/HideWindowF.gd" id="41_137os"]
+[ext_resource type="Script" path="res://Scripts/ExitEditor.gd" id="42_jru20"]
+[ext_resource type="Script" path="res://Scripts/Tools/PngToIcoShow.gd" id="43_io6qc"]
+[ext_resource type="Script" path="res://Scripts/Scene/LoadPersonScene2.gd" id="44_e7uso"]
+[ext_resource type="Script" path="res://Scripts/Build/BuildShow.gd" id="44_r6gf0"]
+[ext_resource type="Script" path="res://Scripts/Scene/Exit.gd" id="45_ef3a3"]
+[ext_resource type="Script" path="res://Scripts/Tools.gd" id="45_vvshf"]
+[ext_resource type="Script" path="res://Scripts/PackageManager/PackageShow.gd" id="46_a1uh0"]
+[ext_resource type="Script" path="res://Scripts/Tools/pngivoshow.gd" id="46_joae6"]
+[ext_resource type="Script" path="res://Scripts/SettingsEditor/SettingsShow.gd" id="47_jxeob"]
+[ext_resource type="PackedScene" uid="uid://ceyao6xcsu6v8" path="res://addons/png_to_ico/scenes/ico_main.tscn" id="47_pcj8k"]
+[ext_resource type="Script" path="res://Scripts/Tools/IcoMin.gd" id="49_utcwt"]
+[ext_resource type="Script" path="res://Scripts/PackageManager/PackageManagerHide.gd" id="49_xbsqp"]
+[ext_resource type="Script" path="res://Scripts/Build/BuildScene2Show.gd" id="50_2sf71"]
+[ext_resource type="Script" path="res://Scripts/Build/BuildZip.gd" id="56_4fj50"]
+[ext_resource type="PackedScene" uid="uid://2x7q0yy2f7be" path="res://addons/project_zip/project_zip_complete_dlg.tscn" id="57_4lyrk"]
+[ext_resource type="Script" path="res://Scripts/MenuEditorChangeScene.gd" id="60_uu6ro"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_lhjss"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_fohpa"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_yjw6e"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_pvnsb"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_vwrrk"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_w3xux"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_4rseb"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_gdvof"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_chb8v"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_6ls1a"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_x4vsw"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_mo5lt"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_dg68d"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_eqqry"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_40tya"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_rfu2i"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_g375b"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_oodg7"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_76rio"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_eelco"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_x5oys"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_rch7q"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_lhuws"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_7yb8h"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_hdor6"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_iqtrm"]
+size = Vector2(0.999134, 0.996959)
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_wg43f"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_ygnm8"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_q3ies"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_7fs5f"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_83u4i"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_lanwg"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_46j00"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_r2a7v"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_51hf0"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_xnbsg"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_xvukr"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_31gaq"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_c72wd"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_wwqa3"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_du5nv"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_7tcto"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_d1g5t"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_cn26s"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_4ddjh"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_vaiwd"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_sm6on"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_2xuw7"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_bi6b7"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_6p0o8"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_wkrym"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_ke1id"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_x3337"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_pmn41"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_iyfo5"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_6grrc"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_qo08a"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="EditorScene1" type="Control" parent="."]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Materials" type="Node2D" parent="EditorScene1"]
+visible = false
+
+[node name="Sprite2D" type="Sprite2D" parent="EditorScene1/Materials"]
+modulate = Color(0, 0.478431, 0.615686, 1)
+position = Vector2(576.585, 325.269)
+scale = Vector2(-1152.17, 651.538)
+texture = SubResource("CanvasTexture_lhjss")
+
+[node name="Materials_G" type="Node2D" parent="EditorScene1"]
+visible = false
+
+[node name="Sprite2D" type="Sprite2D" parent="EditorScene1/Materials_G"]
+modulate = Color(0.619608, 0.168627, 0, 1)
+position = Vector2(576.75, 323.75)
+scale = Vector2(1154.5, 648.5)
+texture = SubResource("CanvasTexture_fohpa")
+
+[node name="Materials_Y" type="Node2D" parent="EditorScene1"]
+visible = false
+
+[node name="Sprite2D" type="Sprite2D" parent="EditorScene1/Materials_Y"]
+modulate = Color(1, 0.505882, 0.768627, 1)
+position = Vector2(575.25, 323.75)
+scale = Vector2(1151.5, 648.5)
+texture = SubResource("CanvasTexture_yjw6e")
+
+[node name="Materials_D" type="Node2D" parent="EditorScene1"]
+visible = false
+
+[node name="Sprite2D" type="Sprite2D" parent="EditorScene1/Materials_D"]
+modulate = Color(0.294118, 0.901961, 0, 1)
+position = Vector2(577, 323.75)
+scale = Vector2(1154, 648.5)
+texture = SubResource("CanvasTexture_pvnsb")
+
+[node name="Materials_R" type="Node2D" parent="EditorScene1"]
+visible = false
+
+[node name="Sprite2D" type="Sprite2D" parent="EditorScene1/Materials_R"]
+modulate = Color(0.827451, 0.788235, 0, 0.996078)
+position = Vector2(576.25, 324.75)
+scale = Vector2(1153.5, 650.5)
+texture = SubResource("CanvasTexture_vwrrk")
+
+[node name="Materials_F" type="Node2D" parent="EditorScene1"]
+visible = false
+
+[node name="Sprite2D" type="Sprite2D" parent="EditorScene1/Materials_F"]
+modulate = Color(0.917647, 0.329412, 0.815686, 1)
+position = Vector2(576.25, 325.25)
+scale = Vector2(1153.5, 651.5)
+texture = SubResource("CanvasTexture_w3xux")
+
+[node name="AcrylicNo" type="Node2D" parent="EditorScene1"]
+visible = false
+
+[node name="Sprite2D" type="Sprite2D" parent="EditorScene1/AcrylicNo"]
+modulate = Color(0.266667, 0.266667, 0.266667, 1)
+position = Vector2(1023, 349)
+scale = Vector2(260, 610)
+texture = SubResource("CanvasTexture_4rseb")
+
+[node name="Sprite2D2" type="Sprite2D" parent="EditorScene1/AcrylicNo"]
+modulate = Color(0.266667, 0.266667, 0.266667, 1)
+position = Vector2(133, 536)
+scale = Vector2(274, 232)
+texture = SubResource("CanvasTexture_4rseb")
+
+[node name="Sprite2D3" type="Sprite2D" parent="EditorScene1/AcrylicNo"]
+modulate = Color(0.203922, 0.203922, 0.203922, 1)
+position = Vector2(1024, 21.75)
+scale = Vector2(262, 44.5)
+texture = SubResource("CanvasTexture_gdvof")
+
+[node name="MaterialsLoad" type="Control" parent="EditorScene1"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect" type="ColorRect" parent="EditorScene1/MaterialsLoad"]
+layout_mode = 0
+offset_right = 1.0
+offset_bottom = 1.0
+color = Color(0.701961, 0.701961, 0.701961, 1)
+
+[node name="TextureRect" type="TextureRect" parent="EditorScene1/MaterialsLoad/ColorRect"]
+layout_mode = 0
+offset_right = 1.0
+offset_bottom = 1.0
+texture = SubResource("CanvasTexture_chb8v")
+
+[node name="Sprite2D2" type="Sprite2D" parent="EditorScene1"]
+modulate = Color(0.266667, 0.266667, 0.266667, 0.913725)
+position = Vector2(133.375, 534)
+scale = Vector2(269.25, 230)
+texture = SubResource("CanvasTexture_6ls1a")
+
+[node name="Sprite2D" type="Sprite2D" parent="EditorScene1"]
+modulate = Color(0.266667, 0.266667, 0.266667, 0.913725)
+position = Vector2(1024, 346)
+scale = Vector2(258, 606)
+texture = SubResource("CanvasTexture_6ls1a")
+
+[node name="Sprite2D3" type="Sprite2D" parent="EditorScene1"]
+modulate = Color(0.223529, 0.223529, 0.223529, 0.913725)
+position = Vector2(1025, 21.25)
+scale = Vector2(260, 43.5)
+texture = SubResource("CanvasTexture_x4vsw")
+
+[node name="Tools" type="Control" parent="EditorScene1"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_qq0ej")
+
+[node name="LoadImage" type="Button" parent="EditorScene1/Tools"]
+layout_mode = 0
+offset_left = 13.0
+offset_top = 434.0
+offset_right = 124.0
+offset_bottom = 469.0
+text = "Load Sprite"
+
+[node name="Elements" type="Control" parent="EditorScene1/Tools"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("2_gtjqi")
+
+[node name="Button" type="Button" parent="EditorScene1/Tools/Elements"]
+layout_mode = 0
+offset_left = 129.0
+offset_top = 434.0
+offset_right = 211.0
+offset_bottom = 469.0
+text = "Elements"
+
+[node name="ChangeScene" type="Control" parent="EditorScene1/Tools"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("3_8hr8r")
+
+[node name="Button" type="Button" parent="EditorScene1/Tools/ChangeScene"]
+layout_mode = 0
+offset_left = 907.0
+offset_top = 131.0
+offset_right = 1083.0
+offset_bottom = 174.0
+theme_override_font_sizes/font_size = 25
+text = "Change Scene"
+
+[node name="LoadPerson" type="Control" parent="EditorScene1/Tools"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("4_05hxo")
+
+[node name="LoadImage" type="Button" parent="EditorScene1/Tools/LoadPerson"]
+layout_mode = 0
+offset_left = 905.0
+offset_top = 51.0
+offset_right = 1145.0
+offset_bottom = 94.0
+theme_override_font_sizes/font_size = 25
+text = "Load image person"
+
+[node name="Play" type="Control" parent="EditorScene1/Tools"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("5_e2fp5")
+
+[node name="Button2" type="Button" parent="EditorScene1/Tools/Play"]
+layout_mode = 0
+offset_left = 216.0
+offset_top = 434.0
+offset_right = 257.0
+offset_bottom = 469.0
+text = "Play"
+
+[node name="LoadImageControl" type="Control" parent="EditorScene1/Tools"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("6_kugiy")
+
+[node name="Button" type="Button" parent="EditorScene1/Tools/LoadImageControl"]
+visible = false
+layout_mode = 0
+offset_left = 13.0
+offset_top = 434.0
+offset_right = 124.0
+offset_bottom = 469.0
+text = "Load Sprite"
+
+[node name="Button2" type="Button" parent="EditorScene1/Tools/LoadImageControl"]
+visible = false
+layout_mode = 0
+offset_left = 13.0
+offset_top = 433.0
+offset_right = 124.0
+offset_bottom = 468.0
+text = "Load Sprite"
+
+[node name="Button3" type="Button" parent="EditorScene1/Tools/LoadImageControl"]
+visible = false
+layout_mode = 0
+offset_left = 13.0
+offset_top = 434.0
+offset_right = 124.0
+offset_bottom = 469.0
+text = "Load Sprite"
+
+[node name="Button4" type="Button" parent="EditorScene1/Tools/LoadImageControl"]
+visible = false
+layout_mode = 0
+offset_left = 13.0
+offset_top = 434.0
+offset_right = 124.0
+offset_bottom = 469.0
+text = "Load Sprite"
+
+[node name="Button5" type="Button" parent="EditorScene1/Tools/LoadImageControl"]
+visible = false
+layout_mode = 0
+offset_left = 13.0
+offset_top = 434.0
+offset_right = 124.0
+offset_bottom = 469.0
+text = "Load Sprite"
+
+[node name="Button6" type="Button" parent="EditorScene1/Tools/LoadImageControl"]
+visible = false
+layout_mode = 0
+offset_left = 13.0
+offset_top = 434.0
+offset_right = 124.0
+offset_bottom = 469.0
+text = "Load Sprite"
+
+[node name="Button7" type="Button" parent="EditorScene1/Tools/LoadImageControl"]
+visible = false
+layout_mode = 0
+offset_left = 13.0
+offset_top = 434.0
+offset_right = 124.0
+offset_bottom = 469.0
+text = "Load Sprite"
+
+[node name="Button8" type="Button" parent="EditorScene1/Tools/LoadImageControl"]
+visible = false
+layout_mode = 0
+offset_left = 13.0
+offset_top = 434.0
+offset_right = 124.0
+offset_bottom = 469.0
+text = "Load Sprite"
+
+[node name="VisualShow" type="Control" parent="EditorScene1/Tools"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("7_543ix")
+
+[node name="Button3" type="Button" parent="EditorScene1/Tools/VisualShow"]
+layout_mode = 0
+offset_left = 13.0
+offset_top = 475.0
+offset_right = 189.0
+offset_bottom = 510.0
+text = "Visual Scripting (Beta)"
+
+[node name="FileDialog" type="FileDialog" parent="EditorScene1"]
+title = "Open a File"
+initial_position = 2
+size = Vector2i(407, 350)
+ok_button_text = "Открыть"
+dialog_hide_on_ok = true
+file_mode = 0
+access = 2
+filters = PackedStringArray("*.png; PNG, *.jpeg; JPG")
+show_hidden_files = true
+
+[node name="DropImage" type="Control" parent="EditorScene1"]
+anchors_preset = 0
+offset_top = -1.0
+offset_right = 40.0
+offset_bottom = 39.0
+script = ExtResource("2_obwso")
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="EditorScene1/DropImage"]
+modulate = Color(1, 1, 1, 0)
+self_modulate = Color(1, 1, 1, 0)
+position = Vector2(299, 273.5)
+scale = Vector2(96, 93)
+mesh = SubResource("BoxMesh_mo5lt")
+texture = SubResource("CanvasTexture_dg68d")
+
+[node name="ColorRect2" type="ColorRect" parent="EditorScene1/DropImage"]
+layout_mode = 0
+offset_left = 251.0
+offset_top = 227.0
+offset_right = 347.0
+offset_bottom = 320.0
+
+[node name="TextureRect" type="TextureRect" parent="EditorScene1/DropImage/ColorRect2"]
+layout_mode = 0
+offset_right = 96.0
+offset_bottom = 93.0
+texture = SubResource("CanvasTexture_eqqry")
+
+[node name="Button" type="Button" parent="EditorScene1/DropImage"]
+modulate = Color(0.290196, 0.290196, 0.290196, 1)
+layout_mode = 0
+offset_left = 298.0
+offset_top = 220.0
+offset_right = 348.0
+offset_bottom = 251.0
+text = "Close"
+flat = true
+
+[node name="FileDialogPerson" type="FileDialog" parent="EditorScene1"]
+title = "Open a File"
+initial_position = 2
+size = Vector2i(338, 300)
+ok_button_text = "Открыть"
+dialog_hide_on_ok = true
+file_mode = 0
+access = 2
+filters = PackedStringArray("*.png; PNG, *.jpeg; JPG")
+show_hidden_files = true
+
+[node name="Image" type="Control" parent="EditorScene1"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Control" type="Control" parent="EditorScene1/Image"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("9_kaih4")
+
+[node name="ColorRect" type="ColorRect" parent="EditorScene1/Image/Control"]
+layout_mode = 0
+offset_left = 496.0
+offset_top = 224.0
+offset_right = 589.0
+offset_bottom = 314.0
+
+[node name="TextureRect" type="TextureRect" parent="EditorScene1/Image/Control/ColorRect"]
+layout_mode = 0
+offset_right = 93.0
+offset_bottom = 89.0
+texture = SubResource("CanvasTexture_40tya")
+
+[node name="Button" type="Button" parent="EditorScene1/Image/Control"]
+modulate = Color(0.298039, 0.298039, 0.298039, 1)
+layout_mode = 0
+offset_left = 541.0
+offset_top = 219.0
+offset_right = 591.0
+offset_bottom = 250.0
+text = "Close"
+flat = true
+
+[node name="Label" type="Label" parent="EditorScene1/Image/Control"]
+modulate = Color(0.219608, 0.219608, 0.219608, 1)
+layout_mode = 1
+anchors_preset = -1
+offset_left = 515.0
+offset_top = 288.0
+offset_right = 574.0
+offset_bottom = 314.0
+text = "Sprite 1"
+
+[node name="Control2" type="Control" parent="EditorScene1/Image"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("10_aau0c")
+
+[node name="ColorRect" type="ColorRect" parent="EditorScene1/Image/Control2"]
+layout_mode = 0
+offset_left = 614.0
+offset_top = 230.0
+offset_right = 700.0
+offset_bottom = 311.0
+
+[node name="TextureRect" type="TextureRect" parent="EditorScene1/Image/Control2/ColorRect"]
+layout_mode = 0
+offset_right = 86.0
+offset_bottom = 81.0
+texture = SubResource("CanvasTexture_rfu2i")
+
+[node name="Button" type="Button" parent="EditorScene1/Image/Control2"]
+modulate = Color(0.239216, 0.239216, 0.239216, 1)
+layout_mode = 0
+offset_left = 652.0
+offset_top = 223.0
+offset_right = 702.0
+offset_bottom = 254.0
+text = "Close"
+flat = true
+
+[node name="Label" type="Label" parent="EditorScene1/Image/Control2"]
+modulate = Color(0.196078, 0.196078, 0.196078, 1)
+layout_mode = 0
+offset_left = 630.0
+offset_top = 286.0
+offset_right = 689.0
+offset_bottom = 312.0
+text = "Sprite 2"
+
+[node name="Control3" type="Control" parent="EditorScene1/Image"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("11_mh5a4")
+
+[node name="ColorRect" type="ColorRect" parent="EditorScene1/Image/Control3"]
+layout_mode = 0
+offset_left = 702.0
+offset_top = 230.0
+offset_right = 788.0
+offset_bottom = 311.0
+
+[node name="TextureRect" type="TextureRect" parent="EditorScene1/Image/Control3/ColorRect"]
+layout_mode = 0
+offset_right = 86.0
+offset_bottom = 81.0
+texture = SubResource("CanvasTexture_g375b")
+
+[node name="Button" type="Button" parent="EditorScene1/Image/Control3"]
+modulate = Color(0.294118, 0.294118, 0.294118, 1)
+layout_mode = 0
+offset_left = 740.0
+offset_top = 223.0
+offset_right = 790.0
+offset_bottom = 254.0
+text = "Close"
+flat = true
+
+[node name="Control4" type="Control" parent="EditorScene1/Image"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("12_5qkn1")
+
+[node name="ColorRect" type="ColorRect" parent="EditorScene1/Image/Control4"]
+layout_mode = 0
+offset_left = 790.0
+offset_top = 230.0
+offset_right = 869.0
+offset_bottom = 311.0
+
+[node name="TextureRect" type="TextureRect" parent="EditorScene1/Image/Control4/ColorRect"]
+layout_mode = 0
+offset_right = 79.0
+offset_bottom = 81.0
+texture = SubResource("CanvasTexture_oodg7")
+
+[node name="Button" type="Button" parent="EditorScene1/Image/Control4"]
+modulate = Color(0.286275, 0.286275, 0.286275, 1)
+layout_mode = 0
+offset_left = 821.0
+offset_top = 223.0
+offset_right = 871.0
+offset_bottom = 254.0
+text = "Close"
+flat = true
+
+[node name="Control5" type="Control" parent="EditorScene1/Image"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("12_ge8jy")
+
+[node name="ColorRect" type="ColorRect" parent="EditorScene1/Image/Control5"]
+layout_mode = 0
+offset_left = 703.0
+offset_top = 314.0
+offset_right = 794.0
+offset_bottom = 399.0
+
+[node name="TextureRect" type="TextureRect" parent="EditorScene1/Image/Control5/ColorRect"]
+layout_mode = 0
+offset_right = 86.0
+offset_bottom = 81.0
+texture = SubResource("CanvasTexture_76rio")
+
+[node name="Button" type="Button" parent="EditorScene1/Image/Control5"]
+modulate = Color(0.278431, 0.278431, 0.278431, 1)
+layout_mode = 0
+offset_left = 745.0
+offset_top = 308.0
+offset_right = 795.0
+offset_bottom = 339.0
+text = "Close"
+flat = true
+
+[node name="Control6" type="Control" parent="EditorScene1/Image"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("14_e1yxg")
+
+[node name="ColorRect" type="ColorRect" parent="EditorScene1/Image/Control6"]
+layout_mode = 0
+offset_left = 506.0
+offset_top = 106.0
+offset_right = 585.0
+offset_bottom = 187.0
+
+[node name="TextureRect" type="TextureRect" parent="EditorScene1/Image/Control6/ColorRect"]
+layout_mode = 0
+offset_right = 79.0
+offset_bottom = 81.0
+texture = SubResource("CanvasTexture_eelco")
+
+[node name="Button" type="Button" parent="EditorScene1/Image/Control6"]
+modulate = Color(0.235294, 0.235294, 0.235294, 1)
+layout_mode = 0
+offset_left = 537.0
+offset_top = 99.0
+offset_right = 587.0
+offset_bottom = 130.0
+text = "Close"
+flat = true
+
+[node name="Control7" type="Control" parent="EditorScene1/Image"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("15_y422q")
+
+[node name="ColorRect" type="ColorRect" parent="EditorScene1/Image/Control7"]
+layout_mode = 0
+offset_left = 620.0
+offset_top = 107.0
+offset_right = 702.0
+offset_bottom = 188.0
+
+[node name="TextureRect" type="TextureRect" parent="EditorScene1/Image/Control7/ColorRect"]
+layout_mode = 0
+offset_right = 82.0
+offset_bottom = 81.0
+
+[node name="Button" type="Button" parent="EditorScene1/Image/Control7"]
+modulate = Color(0.25098, 0.25098, 0.25098, 1)
+layout_mode = 0
+offset_left = 653.0
+offset_top = 102.0
+offset_right = 703.0
+offset_bottom = 133.0
+text = "Close"
+flat = true
+
+[node name="Control8" type="Control" parent="EditorScene1/Image"]
+anchors_preset = 0
+offset_left = -1.0
+offset_right = 299.0
+offset_bottom = 57.0
+scale = Vector2(0.2, 1)
+script = ExtResource("15_w6ah3")
+
+[node name="ColorRect" type="ColorRect" parent="EditorScene1/Image/Control8"]
+layout_mode = 0
+offset_left = 660.0
+offset_top = 288.0
+offset_right = 1050.0
+offset_bottom = 363.0
+scale = Vector2(0.999435, 1)
+
+[node name="TextureRect" type="TextureRect" parent="EditorScene1/Image/Control8/ColorRect"]
+layout_mode = 0
+offset_left = -10.0057
+offset_top = -1.00003
+offset_right = 389.994
+offset_bottom = 75.0
+texture = SubResource("CanvasTexture_x5oys")
+
+[node name="Control9" type="Control" parent="EditorScene1/Image"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("17_ovta4")
+
+[node name="ColorRect" type="ColorRect" parent="EditorScene1/Image/Control9"]
+layout_mode = 0
+offset_left = 614.0
+offset_top = 314.0
+offset_right = 701.0
+offset_bottom = 399.0
+
+[node name="TextureRect" type="TextureRect" parent="EditorScene1/Image/Control9/ColorRect"]
+layout_mode = 0
+offset_right = 86.0
+offset_bottom = 85.0
+texture = SubResource("CanvasTexture_rch7q")
+
+[node name="Button" type="Button" parent="EditorScene1/Image/Control9"]
+modulate = Color(0.286275, 0.286275, 0.286275, 1)
+layout_mode = 0
+offset_left = 653.0
+offset_top = 307.0
+offset_right = 703.0
+offset_bottom = 338.0
+text = "Close"
+flat = true
+
+[node name="CharacterBody2D" parent="EditorScene1" instance=ExtResource("31_3qyf2")]
+visible = false
+position = Vector2(397, 131)
+
+[node name="ColorRect" type="ColorRect" parent="EditorScene1/CharacterBody2D"]
+offset_top = -1.0
+offset_right = 82.0
+offset_bottom = 77.0
+
+[node name="TextureRect" type="TextureRect" parent="EditorScene1/CharacterBody2D/ColorRect"]
+layout_mode = 0
+offset_left = 1.0
+offset_right = 83.0
+offset_bottom = 78.0
+texture = SubResource("CanvasTexture_lhuws")
+
+[node name="Camera2D" type="Camera2D" parent="EditorScene1/CharacterBody2D"]
+offset = Vector2(5, 95)
+enabled = false
+
+[node name="Button" type="Button" parent="EditorScene1"]
+visible = false
+modulate = Color(1, 1, 1, 0.905882)
+layout_mode = 0
+offset_left = 7.0
+offset_top = 609.0
+offset_right = 109.0
+offset_bottom = 641.0
+text = "Close Game"
+
+[node name="WindowFile" type="Node" parent="EditorScene1"]
+
+[node name="FileDialog" type="FileDialog" parent="EditorScene1/WindowFile"]
+title = "Open a File"
+initial_position = 2
+size = Vector2i(387, 357)
+ok_button_text = "Открыть"
+dialog_hide_on_ok = true
+file_mode = 0
+access = 2
+filters = PackedStringArray("*.png; PNG, *.jpeg; JPG")
+show_hidden_files = true
+
+[node name="FileDialog2" type="FileDialog" parent="EditorScene1/WindowFile"]
+title = "Open a File"
+initial_position = 2
+size = Vector2i(338, 300)
+ok_button_text = "Открыть"
+dialog_hide_on_ok = true
+file_mode = 0
+access = 2
+filters = PackedStringArray("*.png; PNG, *.jpeg; JPG")
+show_hidden_files = true
+
+[node name="FileDialog3" type="FileDialog" parent="EditorScene1/WindowFile"]
+title = "Open a File"
+initial_position = 2
+size = Vector2i(407, 350)
+ok_button_text = "Открыть"
+file_mode = 0
+access = 2
+filters = PackedStringArray("*.png; PNG, *.jpeg; JPG")
+show_hidden_files = true
+
+[node name="FileDialog4" type="FileDialog" parent="EditorScene1/WindowFile"]
+title = "Open a File"
+initial_position = 2
+size = Vector2i(407, 350)
+ok_button_text = "Открыть"
+dialog_hide_on_ok = true
+file_mode = 0
+access = 2
+filters = PackedStringArray("*.png; PNG, *.jpeg; JPG")
+show_hidden_files = true
+
+[node name="FileDialog5" type="FileDialog" parent="EditorScene1/WindowFile"]
+title = "Open a File"
+initial_position = 2
+size = Vector2i(407, 350)
+ok_button_text = "Открыть"
+dialog_hide_on_ok = true
+file_mode = 0
+access = 2
+filters = PackedStringArray("*.png; PNG, *.jpeg; JPG")
+show_hidden_files = true
+
+[node name="FileDialog6" type="FileDialog" parent="EditorScene1/WindowFile"]
+title = "Open a File"
+initial_position = 2
+size = Vector2i(407, 350)
+ok_button_text = "Открыть"
+dialog_hide_on_ok = true
+file_mode = 0
+access = 2
+filters = PackedStringArray("*.png; PNG, *.jpeg; JPG")
+show_hidden_files = true
+
+[node name="FileDialog7" type="FileDialog" parent="EditorScene1/WindowFile"]
+title = "Open a File"
+initial_position = 2
+size = Vector2i(407, 350)
+ok_button_text = "Открыть"
+dialog_hide_on_ok = true
+file_mode = 0
+access = 2
+filters = PackedStringArray("*.png; PNG, *.jpeg; JPG")
+show_hidden_files = true
+
+[node name="FileDialog8" type="FileDialog" parent="EditorScene1/WindowFile"]
+title = "Open a File"
+initial_position = 2
+size = Vector2i(407, 350)
+ok_button_text = "Открыть"
+dialog_hide_on_ok = true
+file_mode = 0
+access = 2
+filters = PackedStringArray("*.png; PNG, *.jpeg; JPG")
+show_hidden_files = true
+
+[node name="FileDialogTiled" type="FileDialog" parent="EditorScene1"]
+title = "Open a File"
+initial_position = 2
+size = Vector2i(407, 350)
+ok_button_text = "Открыть"
+dialog_hide_on_ok = true
+file_mode = 0
+access = 2
+filters = PackedStringArray("*.png; PNG, *.jpeg; JPG")
+show_hidden_files = true
+
+[node name="Collision" type="Node2D" parent="EditorScene1"]
+visible = false
+
+[node name="Sprite2D" type="Sprite2D" parent="EditorScene1/Collision"]
+modulate = Color(1, 1, 1, 0)
+position = Vector2(577.5, 607.125)
+scale = Vector2(1155, 82.25)
+texture = SubResource("CanvasTexture_7yb8h")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="EditorScene1/Collision/Sprite2D"]
+disable_mode = 1
+physics_material_override = SubResource("PhysicsMaterial_hdor6")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="EditorScene1/Collision/Sprite2D/StaticBody2D"]
+position = Vector2(-0.000432998, -0.00152063)
+shape = SubResource("RectangleShape2D_iqtrm")
+
+[node name="ColorRect" type="ColorRect" parent="EditorScene1"]
+layout_mode = 0
+offset_left = 376.0
+offset_top = 231.0
+offset_right = 457.0
+offset_bottom = 307.0
+
+[node name="TextureRect" type="TextureRect" parent="EditorScene1/ColorRect"]
+layout_mode = 0
+offset_right = 81.0
+offset_bottom = 76.0
+texture = SubResource("CanvasTexture_wg43f")
+
+[node name="ButtonClose" type="Control" parent="EditorScene1/ColorRect"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("7_gw5dn")
+
+[node name="Button" type="Button" parent="EditorScene1/ColorRect/ButtonClose"]
+modulate = Color(0.117647, 0.113725, 0.109804, 0.729412)
+layout_mode = 0
+offset_left = 34.0
+offset_top = -7.0
+offset_right = 84.0
+offset_bottom = 24.0
+text = "Close
+"
+flat = true
+
+[node name="ElementsWindow" type="Control" parent="EditorScene1"]
+visible = false
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("4_pckow")
+
+[node name="UI" type="Node2D" parent="EditorScene1/ElementsWindow"]
+
+[node name="Sprite2D" type="Sprite2D" parent="EditorScene1/ElementsWindow/UI"]
+modulate = Color(0.141176, 0.141176, 0.141176, 1)
+position = Vector2(562, 339.375)
+scale = Vector2(296, 247.25)
+texture = SubResource("CanvasTexture_ygnm8")
+
+[node name="Label" type="Label" parent="EditorScene1/ElementsWindow"]
+layout_mode = 0
+offset_left = 417.0
+offset_top = 214.0
+offset_right = 516.0
+offset_bottom = 248.0
+theme_override_font_sizes/font_size = 22
+text = "Elements"
+
+[node name="Colider" type="Control" parent="EditorScene1/ElementsWindow"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("16_o3tqc")
+
+[node name="Button" type="Button" parent="EditorScene1/ElementsWindow/Colider"]
+layout_mode = 0
+offset_left = 419.0
+offset_top = 247.0
+offset_right = 704.0
+offset_bottom = 280.0
+text = "Colider Create"
+
+[node name="Button2" type="Button" parent="EditorScene1/ElementsWindow"]
+layout_mode = 0
+offset_left = 417.0
+offset_top = 429.0
+offset_right = 534.0
+offset_bottom = 460.0
+text = "Close Window"
+
+[node name="Button3" type="Button" parent="EditorScene1/ElementsWindow"]
+layout_mode = 0
+offset_left = 419.0
+offset_top = 284.0
+offset_right = 704.0
+offset_bottom = 318.0
+text = "Sprite(1) - Colider"
+
+[node name="Button4" type="Button" parent="EditorScene1/ElementsWindow"]
+layout_mode = 0
+offset_left = 588.0
+offset_top = 428.0
+offset_right = 706.0
+offset_bottom = 459.0
+text = "Visible Sprite"
+
+[node name="Button5" type="Button" parent="EditorScene1/ElementsWindow"]
+layout_mode = 0
+offset_left = 419.0
+offset_top = 322.0
+offset_right = 704.0
+offset_bottom = 358.0
+text = "Materials SkyBox"
+
+[node name="MaterialsUI" type="Node2D" parent="EditorScene1/ElementsWindow"]
+visible = false
+
+[node name="Sprite2D" type="Sprite2D" parent="EditorScene1/ElementsWindow/MaterialsUI"]
+modulate = Color(0.141176, 0.141176, 0.141176, 1)
+position = Vector2(785.625, 339.625)
+scale = Vector2(144.75, 246.75)
+texture = SubResource("CanvasTexture_q3ies")
+
+[node name="Button" type="Button" parent="EditorScene1/ElementsWindow/MaterialsUI"]
+modulate = Color(0.262745, 1, 0.976471, 1)
+offset_left = 718.0
+offset_top = 221.0
+offset_right = 749.0
+offset_bottom = 250.0
+
+[node name="Button2" type="Button" parent="EditorScene1/ElementsWindow/MaterialsUI"]
+offset_left = 717.0
+offset_top = 395.0
+offset_right = 854.0
+offset_bottom = 426.0
+text = "Hide Materials"
+
+[node name="Control" type="Control" parent="EditorScene1/ElementsWindow/MaterialsUI"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("16_0lqxe")
+
+[node name="Button3" type="Button" parent="EditorScene1/ElementsWindow/MaterialsUI/Control"]
+layout_mode = 0
+offset_left = 717.0
+offset_top = 362.0
+offset_right = 854.0
+offset_bottom = 393.0
+text = "Load Tiled Sprite"
+
+[node name="Button3" type="Button" parent="EditorScene1/ElementsWindow/MaterialsUI"]
+modulate = Color(0.619608, 0.168627, 0, 1)
+offset_left = 751.0
+offset_top = 221.0
+offset_right = 782.0
+offset_bottom = 250.0
+
+[node name="Control2" type="Control" parent="EditorScene1/ElementsWindow/MaterialsUI"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("21_8vhm8")
+
+[node name="Button" type="Button" parent="EditorScene1/ElementsWindow/MaterialsUI/Control2"]
+layout_mode = 0
+offset_left = 717.0
+offset_top = 428.0
+offset_right = 854.0
+offset_bottom = 459.0
+text = "Apply Material"
+
+[node name="Control3" type="Control" parent="EditorScene1/ElementsWindow/MaterialsUI"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("22_eef6k")
+
+[node name="Button" type="Button" parent="EditorScene1/ElementsWindow/MaterialsUI/Control3"]
+modulate = Color(0, 0.823529, 0.517647, 1)
+layout_mode = 0
+offset_left = 784.0
+offset_top = 221.0
+offset_right = 813.0
+offset_bottom = 250.0
+
+[node name="Control4" type="Control" parent="EditorScene1/ElementsWindow/MaterialsUI"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("23_q5wq0")
+
+[node name="Button" type="Button" parent="EditorScene1/ElementsWindow/MaterialsUI/Control4"]
+modulate = Color(1, 0.219608, 0.980392, 1)
+layout_mode = 0
+offset_left = 815.0
+offset_top = 221.0
+offset_right = 844.0
+offset_bottom = 250.0
+
+[node name="Control5" type="Control" parent="EditorScene1/ElementsWindow/MaterialsUI"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("25_b7fqo")
+
+[node name="Button" type="Button" parent="EditorScene1/ElementsWindow/MaterialsUI/Control5"]
+modulate = Color(0.85098, 0.85098, 0, 1)
+layout_mode = 0
+offset_left = 718.0
+offset_top = 252.0
+offset_right = 749.0
+offset_bottom = 281.0
+
+[node name="Control6" type="Control" parent="EditorScene1/ElementsWindow/MaterialsUI"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("26_deu60")
+
+[node name="Button" type="Button" parent="EditorScene1/ElementsWindow/MaterialsUI/Control6"]
+modulate = Color(0.756863, 0.282353, 0.756863, 1)
+layout_mode = 0
+offset_left = 751.0
+offset_top = 253.0
+offset_right = 782.0
+offset_bottom = 281.0
+
+[node name="Collision" type="Control" parent="EditorScene1/ElementsWindow"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="UI" type="Node2D" parent="EditorScene1/ElementsWindow/Collision"]
+
+[node name="VisualScripting" type="Control" parent="EditorScene1"]
+visible = false
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("20_7hha3")
+
+[node name="Node2D" type="Node2D" parent="EditorScene1/VisualScripting"]
+
+[node name="Sprite2D" type="Sprite2D" parent="EditorScene1/VisualScripting/Node2D"]
+modulate = Color(0.262745, 0.262745, 0.262745, 1)
+position = Vector2(558, 335)
+scale = Vector2(279.75, 447.75)
+texture = SubResource("CanvasTexture_7fs5f")
+
+[node name="Sprite2D2" type="Sprite2D" parent="EditorScene1/VisualScripting/Node2D"]
+modulate = Color(0.211765, 0.211765, 0.211765, 1)
+position = Vector2(558, 130)
+scale = Vector2(280, 38)
+texture = SubResource("CanvasTexture_83u4i")
+
+[node name="Sprite2D5" type="Sprite2D" parent="EditorScene1/VisualScripting/Node2D"]
+modulate = Color(0.211765, 0.211765, 0.211765, 1)
+position = Vector2(558, 202)
+scale = Vector2(280, 12)
+texture = SubResource("CanvasTexture_83u4i")
+
+[node name="Sprite2D3" type="Sprite2D" parent="EditorScene1/VisualScripting/Node2D"]
+modulate = Color(0.211765, 0.211765, 0.211765, 1)
+position = Vector2(558, 540)
+scale = Vector2(280, 40)
+texture = SubResource("CanvasTexture_83u4i")
+
+[node name="Sprite2D4" type="Sprite2D" parent="EditorScene1/VisualScripting/Node2D"]
+modulate = Color(0.176471, 0.176471, 0.176471, 1)
+position = Vector2(595.176, 540.054)
+scale = Vector2(-205.477, -39.838)
+texture = SubResource("CanvasTexture_lanwg")
+
+[node name="CShow" type="Node2D" parent="EditorScene1/VisualScripting/Node2D"]
+
+[node name="S" type="Sprite2D" parent="EditorScene1/VisualScripting/Node2D/CShow"]
+visible = false
+position = Vector2(682, 540)
+scale = Vector2(0.290001, 0.28)
+texture = ExtResource("20_7ot3q")
+
+[node name="D" type="Sprite2D" parent="EditorScene1/VisualScripting/Node2D/CShow"]
+visible = false
+position = Vector2(617, 540)
+scale = Vector2(0.31, 0.29)
+texture = ExtResource("21_dg5k4")
+
+[node name="Sh" type="Sprite2D" parent="EditorScene1/VisualScripting/Node2D/CShow"]
+visible = false
+position = Vector2(650, 540.25)
+scale = Vector2(0.3, 0.285)
+texture = ExtResource("22_cy82k")
+
+[node name="Button" type="Button" parent="EditorScene1/VisualScripting"]
+layout_mode = 0
+offset_left = 422.0
+offset_top = 524.0
+offset_right = 488.0
+offset_bottom = 555.0
+text = "Close"
+
+[node name="Label" type="Label" parent="EditorScene1/VisualScripting"]
+layout_mode = 0
+offset_left = 461.0
+offset_top = 112.0
+offset_right = 648.0
+offset_bottom = 150.0
+theme_override_font_sizes/font_size = 25
+text = "Visual Scripting"
+
+[node name="Control" type="Control" parent="EditorScene1/VisualScripting"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("26_5wx8j")
+
+[node name="Button2" type="Button" parent="EditorScene1/VisualScripting/Control"]
+layout_mode = 0
+offset_left = 424.0
+offset_top = 155.0
+offset_right = 693.0
+offset_bottom = 192.0
+theme_override_font_sizes/font_size = 20
+text = "Start Project"
+
+[node name="Control2" type="Control" parent="EditorScene1/VisualScripting"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("29_alboy")
+
+[node name="Button" type="Button" parent="EditorScene1/VisualScripting/Control2"]
+layout_mode = 0
+offset_left = 424.0
+offset_top = 212.0
+offset_right = 693.0
+offset_bottom = 248.0
+theme_override_font_sizes/font_size = 20
+text = "Show Object"
+
+[node name="Control" type="Control" parent="EditorScene1"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("26_kth4d")
+
+[node name="Button2" type="Button" parent="EditorScene1/Control"]
+modulate = Color(0.254902, 0.254902, 0.254902, 1)
+layout_mode = 0
+offset_left = 158.0
+offset_top = 283.0
+offset_right = 208.0
+offset_bottom = 314.0
+text = "Close"
+flat = true
+
+[node name="ButtonClassPanel" type="Control" parent="EditorScene1"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("32_8lxn8")
+
+[node name="Node2D" type="Node2D" parent="EditorScene1/ButtonClassPanel"]
+
+[node name="Sprite2D" type="Sprite2D" parent="EditorScene1/ButtonClassPanel/Node2D"]
+modulate = Color(0.231373, 0.231373, 0.231373, 0.862745)
+position = Vector2(1052.13, 630.625)
+scale = Vector2(200.25, 35.25)
+texture = SubResource("CanvasTexture_46j00")
+
+[node name="Sprite2D2" type="Sprite2D" parent="EditorScene1/ButtonClassPanel/Node2D"]
+visible = false
+modulate = Color(0.231373, 0.231373, 0.231373, 1)
+position = Vector2(1052.13, 630.625)
+scale = Vector2(200.25, 35.25)
+texture = SubResource("CanvasTexture_46j00")
+
+[node name="Button" type="Button" parent="EditorScene1/ButtonClassPanel"]
+layout_mode = 0
+offset_left = 1079.0
+offset_top = 613.0
+offset_right = 1150.0
+offset_bottom = 644.0
+text = "Window"
+flat = true
+
+[node name="Button2" type="Button" parent="EditorScene1/ButtonClassPanel"]
+layout_mode = 0
+offset_left = 957.0
+offset_top = 611.0
+offset_right = 1078.0
+offset_bottom = 649.0
+text = "Settings Editor"
+flat = true
+
+[node name="MenuPanel" type="Node" parent="EditorScene1/ButtonClassPanel"]
+
+[node name="Sprite2D" type="Sprite2D" parent="EditorScene1/ButtonClassPanel/MenuPanel"]
+visible = false
+modulate = Color(0.239216, 0.239216, 0.239216, 1)
+position = Vector2(1077.88, 586.625)
+scale = Vector2(143.75, 49.25)
+texture = SubResource("CanvasTexture_r2a7v")
+
+[node name="Button" type="Button" parent="EditorScene1/ButtonClassPanel/MenuPanel"]
+visible = false
+offset_left = 1005.0
+offset_top = 581.0
+offset_right = 1151.0
+offset_bottom = 612.0
+text = "camera controller"
+flat = true
+
+[node name="Button2" type="Button" parent="EditorScene1/ButtonClassPanel/MenuPanel"]
+visible = false
+offset_left = 1062.0
+offset_top = 558.0
+offset_right = 1150.0
+offset_bottom = 589.0
+text = "Resources"
+flat = true
+
+[node name="CameraControllerWindow" type="Control" parent="EditorScene1"]
+visible = false
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("33_xifnv")
+
+[node name="Sprite2D" type="Sprite2D" parent="EditorScene1/CameraControllerWindow"]
+modulate = Color(0.270588, 0.270588, 0.270588, 1)
+position = Vector2(566, 345)
+scale = Vector2(312.25, 458.25)
+texture = SubResource("CanvasTexture_51hf0")
+
+[node name="Sprite2D2" type="Sprite2D" parent="EditorScene1/CameraControllerWindow"]
+modulate = Color(0.239216, 0.239216, 0.239216, 1)
+position = Vector2(565.969, 136.028)
+scale = Vector2(-312.283, 40.3825)
+texture = SubResource("CanvasTexture_xnbsg")
+
+[node name="Sprite2D3" type="Sprite2D" parent="EditorScene1/CameraControllerWindow"]
+modulate = Color(0.239216, 0.239216, 0.239216, 1)
+position = Vector2(565.965, 554.5)
+scale = Vector2(-312.118, 40.9695)
+texture = SubResource("CanvasTexture_xnbsg")
+
+[node name="Label" type="Label" parent="EditorScene1/CameraControllerWindow"]
+layout_mode = 0
+offset_left = 418.0
+offset_top = 119.0
+offset_right = 642.0
+offset_bottom = 157.0
+theme_override_font_sizes/font_size = 25
+text = "Camera Controller"
+
+[node name="Button" type="Button" parent="EditorScene1/CameraControllerWindow"]
+layout_mode = 0
+offset_left = 414.0
+offset_top = 539.0
+offset_right = 464.0
+offset_bottom = 570.0
+text = "Close"
+
+[node name="Label2" type="Label" parent="EditorScene1/CameraControllerWindow"]
+layout_mode = 0
+offset_left = 419.0
+offset_top = 158.0
+offset_right = 527.0
+offset_bottom = 184.0
+text = "Bind to player
+"
+
+[node name="Control" type="Control" parent="EditorScene1/CameraControllerWindow"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("36_33aqm")
+
+[node name="Button" type="Button" parent="EditorScene1/CameraControllerWindow/Control"]
+layout_mode = 0
+offset_left = 420.0
+offset_top = 185.0
+offset_right = 479.0
+offset_bottom = 216.0
+text = "Player"
+
+[node name="Resources" type="Control" parent="EditorScene1"]
+visible = false
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("36_bibm5")
+
+[node name="Sprite2D" type="Sprite2D" parent="EditorScene1/Resources"]
+modulate = Color(0.262745, 0.262745, 0.262745, 1)
+position = Vector2(602.625, 326.125)
+scale = Vector2(346.75, 251.75)
+texture = SubResource("CanvasTexture_xvukr")
+
+[node name="Sprite2D2" type="Sprite2D" parent="EditorScene1/Resources"]
+modulate = Color(0.227451, 0.227451, 0.227451, 1)
+position = Vector2(602.5, 217.5)
+scale = Vector2(347, 35)
+texture = SubResource("CanvasTexture_31gaq")
+
+[node name="Label" type="Label" parent="EditorScene1/Resources"]
+layout_mode = 0
+offset_left = 433.0
+offset_top = 199.0
+offset_right = 555.0
+offset_bottom = 237.0
+theme_override_font_sizes/font_size = 25
+text = "Resources"
+
+[node name="Button" type="Button" parent="EditorScene1/Resources"]
+layout_mode = 0
+offset_left = 724.0
+offset_top = 202.0
+offset_right = 774.0
+offset_bottom = 233.0
+text = "Close"
+
+[node name="Label2" type="Label" parent="EditorScene1/Resources"]
+layout_mode = 0
+offset_left = 435.0
+offset_top = 237.0
+offset_right = 599.0
+offset_bottom = 263.0
+text = "Transform XY Object:"
+
+[node name="Sprite2D3" type="Sprite2D" parent="EditorScene1/Resources"]
+visible = false
+modulate = Color(0.219608, 0.219608, 0.219608, 1)
+position = Vector2(602.625, 360)
+scale = Vector2(346.75, 186)
+texture = SubResource("CanvasTexture_c72wd")
+
+[node name="CharacterBody2D" parent="EditorScene1/Resources" instance=ExtResource("36_ebbl3")]
+visible = false
+position = Vector2(450, 307)
+
+[node name="Control" type="Control" parent="EditorScene1/Resources"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("38_r4mt3")
+
+[node name="OptionButton" type="OptionButton" parent="EditorScene1/Resources/Control"]
+layout_mode = 0
+offset_left = 602.0
+offset_top = 240.0
+offset_right = 771.0
+offset_bottom = 262.0
+theme_override_font_sizes/font_size = 10
+item_count = 2
+selected = 0
+popup/item_0/text = "None"
+popup/item_0/id = 1
+popup/item_1/text = "Sprite (1)"
+popup/item_1/id = 0
+
+[node name="Label" type="Label" parent="EditorScene1"]
+layout_mode = 0
+offset_left = 904.0
+offset_top = 3.0
+offset_right = 1018.0
+offset_bottom = 41.0
+theme_override_font_sizes/font_size = 25
+text = "Inspector"
+
+[node name="Label2" type="Label" parent="EditorScene1"]
+layout_mode = 0
+offset_left = 905.0
+offset_top = 94.0
+offset_right = 987.0
+offset_bottom = 132.0
+theme_override_font_sizes/font_size = 25
+text = "Scenes"
+
+[node name="HideWindowF" type="Control" parent="EditorScene1"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("41_137os")
+
+[node name="Sprite2D" type="Sprite2D" parent="EditorScene1/HideWindowF"]
+modulate = Color(0.231373, 0.231373, 0.231373, 0.901961)
+position = Vector2(64, 628)
+scale = Vector2(124, 40)
+texture = SubResource("CanvasTexture_wwqa3")
+
+[node name="Button" type="Button" parent="EditorScene1/HideWindowF"]
+layout_mode = 0
+offset_left = 7.0
+offset_top = 613.0
+offset_right = 120.0
+offset_bottom = 644.0
+text = "Hide Window"
+
+[node name="Button2" type="Button" parent="EditorScene1/HideWindowF"]
+visible = false
+layout_mode = 0
+offset_left = 6.0
+offset_top = 612.0
+offset_right = 123.0
+offset_bottom = 643.0
+text = "Show Window"
+
+[node name="Button2" type="Button" parent="EditorScene1"]
+layout_mode = 0
+offset_left = 907.0
+offset_top = 178.0
+offset_right = 1083.0
+offset_bottom = 221.0
+theme_override_font_sizes/font_size = 25
+text = "Save Project"
+
+[node name="Control2" type="Control" parent="EditorScene1"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("42_jru20")
+
+[node name="Sprite2D" type="Sprite2D" parent="EditorScene1/Control2"]
+modulate = Color(0.352941, 0.352941, 0.352941, 0.901961)
+position = Vector2(34.5, 18.25)
+scale = Vector2(43, 37.5)
+texture = SubResource("CanvasTexture_du5nv")
+
+[node name="Button" type="Button" parent="EditorScene1/Control2"]
+layout_mode = 0
+offset_left = 16.0
+offset_top = 3.0
+offset_right = 53.0
+offset_bottom = 34.0
+text = "Exit"
+
+[node name="Label3" type="Label" parent="EditorScene1"]
+layout_mode = 0
+offset_left = 907.0
+offset_top = 222.0
+offset_right = 970.0
+offset_bottom = 260.0
+theme_override_font_sizes/font_size = 25
+text = "Tools"
+
+[node name="PngToIco" type="Control" parent="EditorScene1"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("43_io6qc")
+
+[node name="Button3" type="Button" parent="EditorScene1/PngToIco"]
+layout_mode = 0
+offset_left = 907.0
+offset_top = 258.0
+offset_right = 1033.0
+offset_bottom = 302.0
+theme_override_font_sizes/font_size = 25
+text = "Png to ico"
+
+[node name="Control3" type="Control" parent="EditorScene1"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("44_r6gf0")
+
+[node name="Button" type="Button" parent="EditorScene1/Control3"]
+layout_mode = 0
+offset_left = 907.0
+offset_top = 305.0
+offset_right = 1056.0
+offset_bottom = 348.0
+theme_override_font_sizes/font_size = 25
+text = "Build Game"
+
+[node name="EditorScene2" type="Control" parent="."]
+visible = false
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Materials" type="Node2D" parent="EditorScene2"]
+
+[node name="Sprite2D" type="Sprite2D" parent="EditorScene2/Materials"]
+
+[node name="Sprite2D" type="Sprite2D" parent="EditorScene2"]
+modulate = Color(0.266667, 0.266667, 0.266667, 0.913725)
+position = Vector2(1024.5, 342.5)
+scale = Vector2(261, 613)
+texture = SubResource("CanvasTexture_7tcto")
+
+[node name="Sprite2D4" type="Sprite2D" parent="EditorScene2"]
+modulate = Color(0.231373, 0.231373, 0.231373, 0.901961)
+position = Vector2(1052.13, 630.625)
+scale = Vector2(200.25, 35.25)
+texture = SubResource("CanvasTexture_46j00")
+
+[node name="Sprite2D2" type="Sprite2D" parent="EditorScene2"]
+modulate = Color(0.266667, 0.266667, 0.266667, 0.913725)
+position = Vector2(135.25, 535)
+scale = Vector2(271.5, -230)
+texture = SubResource("CanvasTexture_7tcto")
+
+[node name="Sprite2D3" type="Sprite2D" parent="EditorScene2"]
+modulate = Color(0.219608, 0.219608, 0.219608, 0.901961)
+position = Vector2(1024.5, 18.2501)
+scale = Vector2(261, 37.5)
+texture = SubResource("CanvasTexture_d1g5t")
+
+[node name="AcrylicNo" type="Node2D" parent="EditorScene2"]
+visible = false
+
+[node name="Sprite2D" type="Sprite2D" parent="EditorScene2/AcrylicNo"]
+modulate = Color(0.266667, 0.266667, 0.266667, 1)
+position = Vector2(1025, 343)
+scale = Vector2(262, 612)
+texture = SubResource("CanvasTexture_cn26s")
+
+[node name="Sprite2D2" type="Sprite2D" parent="EditorScene2/AcrylicNo"]
+modulate = Color(0.266667, 0.266667, 0.266667, 1)
+position = Vector2(135.25, 535)
+scale = Vector2(271.5, -230)
+texture = SubResource("CanvasTexture_7tcto")
+
+[node name="Sprite2D3" type="Sprite2D" parent="EditorScene2/AcrylicNo"]
+modulate = Color(0.219608, 0.219608, 0.219608, 1)
+position = Vector2(1024.5, 18.25)
+scale = Vector2(261, 37.5)
+texture = SubResource("CanvasTexture_d1g5t")
+
+[node name="Tools" type="Control" parent="EditorScene2"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("45_vvshf")
+
+[node name="LoadImage" type="Button" parent="EditorScene2/Tools"]
+layout_mode = 0
+offset_left = 12.0
+offset_top = 433.0
+offset_right = 123.0
+offset_bottom = 468.0
+text = "Load Sprite"
+
+[node name="Elements" type="Control" parent="EditorScene2/Tools"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Button" type="Button" parent="EditorScene2/Tools/Elements"]
+layout_mode = 0
+offset_left = 130.0
+offset_top = 433.0
+offset_right = 212.0
+offset_bottom = 467.0
+text = "Elements"
+
+[node name="ChangeScene" type="Control" parent="EditorScene2/Tools"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Button" type="Button" parent="EditorScene2/Tools/ChangeScene"]
+layout_mode = 0
+offset_left = 902.0
+offset_top = 126.0
+offset_right = 1078.0
+offset_bottom = 169.0
+theme_override_font_sizes/font_size = 25
+text = "Change Scene"
+
+[node name="LoadPerson" type="Control" parent="EditorScene2/Tools"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("44_e7uso")
+
+[node name="LoadImage" type="Button" parent="EditorScene2/Tools/LoadPerson"]
+layout_mode = 0
+offset_left = 902.0
+offset_top = 43.0
+offset_right = 1144.0
+offset_bottom = 79.0
+theme_override_font_sizes/font_size = 25
+text = "Load image person"
+
+[node name="Play" type="Control" parent="EditorScene2/Tools"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Button2" type="Button" parent="EditorScene2/Tools/Play"]
+layout_mode = 0
+offset_left = 217.0
+offset_top = 433.0
+offset_right = 258.0
+offset_bottom = 466.0
+text = "Play"
+
+[node name="LoadImageControl" type="Control" parent="EditorScene2/Tools"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Button" type="Button" parent="EditorScene2/Tools/LoadImageControl"]
+visible = false
+layout_mode = 0
+offset_left = 5.0
+offset_top = 67.0
+offset_right = 116.0
+offset_bottom = 102.0
+text = "Load Image"
+
+[node name="Button2" type="Button" parent="EditorScene2/Tools/LoadImageControl"]
+visible = false
+layout_mode = 0
+offset_left = 5.0
+offset_top = 67.0
+offset_right = 116.0
+offset_bottom = 102.0
+text = "Load Image"
+
+[node name="Button3" type="Button" parent="EditorScene2/Tools/LoadImageControl"]
+visible = false
+layout_mode = 0
+offset_left = 5.0
+offset_top = 67.0
+offset_right = 116.0
+offset_bottom = 102.0
+text = "Load Image"
+
+[node name="Button4" type="Button" parent="EditorScene2/Tools/LoadImageControl"]
+visible = false
+layout_mode = 0
+offset_left = 5.0
+offset_top = 67.0
+offset_right = 116.0
+offset_bottom = 102.0
+text = "Load Image"
+
+[node name="Button5" type="Button" parent="EditorScene2/Tools/LoadImageControl"]
+visible = false
+layout_mode = 0
+offset_left = 5.0
+offset_top = 67.0
+offset_right = 116.0
+offset_bottom = 102.0
+text = "Load Image"
+
+[node name="Button6" type="Button" parent="EditorScene2/Tools/LoadImageControl"]
+visible = false
+layout_mode = 0
+offset_left = 5.0
+offset_top = 67.0
+offset_right = 116.0
+offset_bottom = 102.0
+text = "Load Image"
+
+[node name="Button7" type="Button" parent="EditorScene2/Tools/LoadImageControl"]
+visible = false
+layout_mode = 0
+offset_left = 5.0
+offset_top = 67.0
+offset_right = 116.0
+offset_bottom = 102.0
+text = "Load Image"
+
+[node name="VisualShow" type="Control" parent="EditorScene2/Tools"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Button3" type="Button" parent="EditorScene2/Tools/VisualShow"]
+layout_mode = 0
+offset_left = 13.0
+offset_top = 475.0
+offset_right = 189.0
+offset_bottom = 506.0
+text = "Visual Scripting (Beta)"
+
+[node name="Control" type="Control" parent="EditorScene2"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("35_6h3d7")
+
+[node name="Button" type="Button" parent="EditorScene2/Control"]
+layout_mode = 0
+offset_left = 903.0
+offset_top = 174.0
+offset_right = 1028.0
+offset_bottom = 205.0
+theme_override_font_sizes/font_size = 25
+text = "<Change Scene"
+
+[node name="Node" type="Node" parent="EditorScene2"]
+
+[node name="FileDialog" type="FileDialog" parent="EditorScene2/Node"]
+title = "Open a File"
+initial_position = 2
+size = Vector2i(407, 350)
+ok_button_text = "Открыть"
+dialog_hide_on_ok = true
+file_mode = 0
+access = 2
+filters = PackedStringArray("*.png; PNG, *.jpeg; JPG")
+show_hidden_files = true
+
+[node name="FileDialogPerson" type="FileDialog" parent="EditorScene2"]
+title = "Open a File"
+initial_position = 2
+size = Vector2i(338, 300)
+ok_button_text = "Открыть"
+dialog_hide_on_ok = true
+file_mode = 0
+access = 2
+filters = PackedStringArray("*.png; PNG, *.jpeg; JPG")
+show_hidden_files = true
+
+[node name="Label" type="Label" parent="EditorScene2"]
+layout_mode = 0
+offset_left = 900.0
+offset_right = 1014.0
+offset_bottom = 38.0
+theme_override_font_sizes/font_size = 25
+text = "Inspector
+"
+
+[node name="Label2" type="Label" parent="EditorScene2"]
+layout_mode = 0
+offset_left = 902.0
+offset_top = 89.0
+offset_right = 984.0
+offset_bottom = 127.0
+theme_override_font_sizes/font_size = 25
+text = "Scenes"
+
+[node name="Button" type="Button" parent="EditorScene2"]
+layout_mode = 0
+offset_left = 904.0
+offset_top = 223.0
+offset_right = 1059.0
+offset_bottom = 266.0
+theme_override_font_sizes/font_size = 25
+text = "Save Project"
+
+[node name="ElementsWindow" type="Control" parent="EditorScene2"]
+visible = false
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Sprite2D" type="Sprite2D" parent="EditorScene2/ElementsWindow"]
+modulate = Color(0.223529, 0.223529, 0.223529, 1)
+position = Vector2(509, 299)
+scale = Vector2(322.25, 294.25)
+texture = SubResource("CanvasTexture_4ddjh")
+
+[node name="Label" type="Label" parent="EditorScene2/ElementsWindow"]
+layout_mode = 0
+offset_left = 352.0
+offset_top = 150.0
+offset_right = 463.0
+offset_bottom = 188.0
+theme_override_font_sizes/font_size = 25
+text = "Elements
+"
+
+[node name="Exit" type="Control" parent="EditorScene2"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("45_ef3a3")
+
+[node name="Sprite2D5" type="Sprite2D" parent="EditorScene2/Exit"]
+modulate = Color(0.364706, 0.364706, 0.364706, 0.901961)
+position = Vector2(33.5, 19.25)
+scale = Vector2(43, 39.5)
+texture = SubResource("CanvasTexture_vaiwd")
+
+[node name="Button" type="Button" parent="EditorScene2/Exit"]
+layout_mode = 0
+offset_left = 15.0
+offset_top = 4.0
+offset_right = 52.0
+offset_bottom = 35.0
+text = "Exit"
+
+[node name="Label3" type="Label" parent="EditorScene2"]
+layout_mode = 0
+offset_left = 906.0
+offset_top = 265.0
+offset_right = 969.0
+offset_bottom = 303.0
+theme_override_font_sizes/font_size = 25
+text = "Tools"
+
+[node name="Control2" type="Control" parent="EditorScene2"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("46_joae6")
+
+[node name="Button" type="Button" parent="EditorScene2/Control2"]
+layout_mode = 0
+offset_left = 904.0
+offset_top = 301.0
+offset_right = 1031.0
+offset_bottom = 344.0
+theme_override_font_sizes/font_size = 25
+text = "Png to Ico"
+
+[node name="Sprite2D5" type="Sprite2D" parent="EditorScene2"]
+modulate = Color(0.227451, 0.227451, 0.227451, 1)
+position = Vector2(44, 631.375)
+scale = Vector2(81.5, 34.75)
+texture = SubResource("CanvasTexture_sm6on")
+
+[node name="Control3" type="Control" parent="EditorScene2"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("47_jxeob")
+
+[node name="Button" type="Button" parent="EditorScene2/Control3"]
+layout_mode = 0
+offset_left = 955.0
+offset_top = 614.0
+offset_right = 1076.0
+offset_bottom = 645.0
+text = "Settings Editor"
+flat = true
+
+[node name="Button2" type="Button" parent="EditorScene2/Control3"]
+layout_mode = 0
+offset_left = 1078.0
+offset_top = 614.0
+offset_right = 1149.0
+offset_bottom = 645.0
+text = "Window"
+flat = true
+
+[node name="Node2D" type="Node2D" parent="EditorScene2/Control3"]
+
+[node name="Sprite2D" type="Sprite2D" parent="EditorScene2/Control3/Node2D"]
+visible = false
+modulate = Color(0.219608, 0.219608, 0.219608, 1)
+position = Vector2(1088.38, 585)
+scale = Vector2(120.75, 50.5)
+texture = SubResource("CanvasTexture_2xuw7")
+
+[node name="CharacterBody2D" parent="EditorScene2" instance=ExtResource("31_3qyf2")]
+visible = false
+position = Vector2(69, 230)
+
+[node name="ColorRect" type="ColorRect" parent="EditorScene2/CharacterBody2D"]
+offset_right = 85.0
+offset_bottom = 83.0
+
+[node name="TextureRect" type="TextureRect" parent="EditorScene2/CharacterBody2D/ColorRect"]
+layout_mode = 0
+offset_right = 85.0
+offset_bottom = 83.0
+texture = SubResource("CanvasTexture_bi6b7")
+
+[node name="Control4" type="Control" parent="EditorScene2"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("50_2sf71")
+
+[node name="Button" type="Button" parent="EditorScene2/Control4"]
+layout_mode = 0
+offset_left = 904.0
+offset_top = 349.0
+offset_right = 1006.0
+offset_bottom = 385.0
+theme_override_font_sizes/font_size = 25
+text = "Build Game"
+
+[node name="ColorRect" type="ColorRect" parent="EditorScene2"]
+layout_mode = 0
+offset_left = 350.0
+offset_top = 155.0
+offset_right = 438.0
+offset_bottom = 233.0
+
+[node name="TextureRect" type="TextureRect" parent="EditorScene2/ColorRect"]
+layout_mode = 0
+offset_right = 88.0
+offset_bottom = 78.0
+texture = SubResource("CanvasTexture_6p0o8")
+
+[node name="SettingsEditor" type="Control" parent="."]
+visible = false
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("28_fbgjy")
+
+[node name="Node2D" type="Node2D" parent="SettingsEditor"]
+
+[node name="Sprite2D" type="Sprite2D" parent="SettingsEditor/Node2D"]
+modulate = Color(0.266667, 0.266667, 0.266667, 0.996078)
+position = Vector2(569.625, 323.875)
+scale = Vector2(484.75, 352.25)
+texture = SubResource("CanvasTexture_wkrym")
+
+[node name="Sprite2D2" type="Sprite2D" parent="SettingsEditor/Node2D"]
+modulate = Color(0.219608, 0.219608, 0.219608, 1)
+position = Vector2(569.625, 168.375)
+scale = Vector2(484.75, 41.25)
+texture = SubResource("CanvasTexture_ke1id")
+
+[node name="Label" type="Label" parent="SettingsEditor"]
+layout_mode = 0
+offset_left = 330.0
+offset_top = 150.0
+offset_right = 575.0
+offset_bottom = 188.0
+theme_override_font_sizes/font_size = 25
+text = "Settings Best Engine"
+
+[node name="Button" type="Button" parent="SettingsEditor"]
+modulate = Color(1, 1, 1, 0.980392)
+layout_mode = 0
+offset_left = 758.0
+offset_top = 153.0
+offset_right = 808.0
+offset_bottom = 184.0
+text = "Close"
+
+[node name="Control" type="Control" parent="SettingsEditor"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("28_e2x3g")
+
+[node name="Button" type="Button" parent="SettingsEditor/Control"]
+layout_mode = 0
+offset_left = 332.0
+offset_top = 221.0
+offset_right = 391.0
+offset_bottom = 254.0
+text = "Acrylic"
+
+[node name="Button2" type="Button" parent="SettingsEditor/Control"]
+layout_mode = 0
+offset_left = 393.0
+offset_top = 221.0
+offset_right = 478.0
+offset_bottom = 254.0
+text = "No acrylic"
+
+[node name="Label2" type="Label" parent="SettingsEditor"]
+layout_mode = 0
+offset_left = 332.0
+offset_top = 197.0
+offset_right = 429.0
+offset_bottom = 223.0
+text = "UI Elements:"
+
+[node name="Label3" type="Label" parent="SettingsEditor"]
+layout_mode = 0
+offset_left = 333.0
+offset_top = 259.0
+offset_right = 381.0
+offset_bottom = 285.0
+text = "Tools:"
+
+[node name="LinkButton" type="LinkButton" parent="SettingsEditor"]
+modulate = Color(0, 0.964706, 0.972549, 1)
+layout_mode = 0
+offset_left = 330.0
+offset_top = 474.0
+offset_right = 436.0
+offset_bottom = 498.0
+text = "Documentation"
+
+[node name="Control2" type="Control" parent="SettingsEditor"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("46_a1uh0")
+
+[node name="Button2" type="Button" parent="SettingsEditor/Control2"]
+layout_mode = 0
+offset_left = 333.0
+offset_top = 286.0
+offset_right = 478.0
+offset_bottom = 321.0
+text = "Package Manager"
+
+[node name="PackageManager" type="Control" parent="."]
+visible = false
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("49_xbsqp")
+
+[node name="Sprite2D" type="Sprite2D" parent="PackageManager"]
+modulate = Color(0.258824, 0.258824, 0.258824, 1)
+position = Vector2(506.375, 286.625)
+scale = Vector2(429.25, 326.75)
+texture = SubResource("CanvasTexture_x3337")
+
+[node name="Sprite2D2" type="Sprite2D" parent="PackageManager"]
+modulate = Color(0.239216, 0.239216, 0.239216, 1)
+position = Vector2(506.5, 140.625)
+scale = Vector2(429, 34.75)
+texture = SubResource("CanvasTexture_pmn41")
+
+[node name="Label" type="Label" parent="PackageManager"]
+layout_mode = 0
+offset_left = 294.0
+offset_top = 122.0
+offset_right = 508.0
+offset_bottom = 160.0
+theme_override_font_sizes/font_size = 25
+text = "Package Manager"
+
+[node name="Button" type="Button" parent="PackageManager"]
+layout_mode = 0
+offset_left = 669.0
+offset_top = 125.0
+offset_right = 719.0
+offset_bottom = 156.0
+text = "Close"
+
+[node name="OptionButton" type="OptionButton" parent="PackageManager"]
+layout_mode = 0
+offset_left = 296.0
+offset_top = 161.0
+offset_right = 424.0
+offset_bottom = 181.0
+item_count = 2
+selected = 0
+popup/item_0/text = "Editor "
+popup/item_0/id = 0
+popup/item_1/text = "Game"
+popup/item_1/id = 1
+
+[node name="LinkButton" type="LinkButton" parent="PackageManager"]
+layout_mode = 0
+offset_left = 294.0
+offset_top = 426.0
+offset_right = 470.0
+offset_bottom = 453.0
+text = "Создать расширения"
+
+[node name="Label2" type="Label" parent="PackageManager"]
+layout_mode = 0
+offset_left = 398.0
+offset_top = 265.0
+offset_right = 617.0
+offset_bottom = 291.0
+text = "Расширения отсутствуют :("
+
+[node name="Tools" type="Control" parent="."]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="IcoMain" parent="Tools" instance=ExtResource("47_pcj8k")]
+visible = false
+layout_mode = 1
+offset_left = 421.0
+offset_top = 198.0
+offset_right = 664.0
+offset_bottom = 383.0
+
+[node name="IcoMin" type="Control" parent="Tools"]
+visible = false
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("49_utcwt")
+
+[node name="Button" type="Button" parent="Tools/IcoMin"]
+layout_mode = 2
+offset_left = 474.0
+offset_top = 377.0
+offset_right = 649.0
+offset_bottom = 411.0
+text = "Exit"
+
+[node name="Build" type="Control" parent="."]
+visible = false
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("56_4fj50")
+
+[node name="Sprite2D" type="Sprite2D" parent="Build"]
+modulate = Color(0.270588, 0.270588, 0.270588, 1)
+position = Vector2(539.125, 244.375)
+scale = Vector2(341.75, 89.25)
+texture = SubResource("CanvasTexture_iyfo5")
+
+[node name="Sprite2D2" type="Sprite2D" parent="Build"]
+modulate = Color(0.235294, 0.235294, 0.235294, 1)
+position = Vector2(539, 216.375)
+scale = Vector2(342, 33.25)
+texture = SubResource("CanvasTexture_6grrc")
+
+[node name="Label" type="Label" parent="Build"]
+layout_mode = 0
+offset_left = 374.0
+offset_top = 205.0
+offset_right = 559.0
+offset_bottom = 231.0
+text = "Build Game (Alpha Test)"
+
+[node name="Button" type="Button" parent="Build"]
+layout_mode = 0
+offset_left = 375.0
+offset_top = 240.0
+offset_right = 703.0
+offset_bottom = 280.0
+text = "Build Game (Zip)"
+
+[node name="ProjectZipCompleteDlg" parent="Build" instance=ExtResource("57_4lyrk")]
+visible = false
+
+[node name="Button2" type="Button" parent="Build"]
+layout_mode = 0
+offset_left = 658.0
+offset_top = 201.0
+offset_right = 708.0
+offset_bottom = 232.0
+text = "Close"
+
+[node name="MenuEditor" type="Control" parent="."]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("60_uu6ro")
+
+[node name="Sprite2D" type="Sprite2D" parent="MenuEditor"]
+modulate = Color(0.313726, 0.313726, 0.313726, 1)
+position = Vector2(115, 18.25)
+scale = Vector2(110, 37.5)
+texture = SubResource("CanvasTexture_qo08a")
+
+[node name="Button" type="Button" parent="MenuEditor"]
+layout_mode = 0
+offset_left = 63.0
+offset_top = 3.0
+offset_right = 122.0
+offset_bottom = 33.0
+text = "menu editor"
+
+[connection signal="pressed" from="EditorScene1/Tools/LoadImage" to="EditorScene1/Tools" method="_on_load_image_pressed"]
+[connection signal="pressed" from="EditorScene1/Tools/Elements/Button" to="EditorScene1/Tools/Elements" method="_on_button_pressed"]
+[connection signal="pressed" from="EditorScene1/Tools/ChangeScene/Button" to="EditorScene1/Tools/ChangeScene" method="_on_button_pressed"]
+[connection signal="pressed" from="EditorScene1/Tools/LoadPerson/LoadImage" to="EditorScene1/Tools/LoadPerson" method="_on_load_image_pressed"]
+[connection signal="pressed" from="EditorScene1/Tools/Play/Button2" to="EditorScene1/Tools/Play" method="_on_button_2_pressed"]
+[connection signal="pressed" from="EditorScene1/Tools/LoadImageControl/Button" to="EditorScene1/Tools/LoadImageControl" method="_on_button_pressed"]
+[connection signal="pressed" from="EditorScene1/Tools/LoadImageControl/Button2" to="EditorScene1/Tools/LoadImageControl" method="_on_button_2_pressed"]
+[connection signal="pressed" from="EditorScene1/Tools/LoadImageControl/Button3" to="EditorScene1/Tools/LoadImageControl" method="_on_button_3_pressed"]
+[connection signal="pressed" from="EditorScene1/Tools/LoadImageControl/Button4" to="EditorScene1/Tools/LoadImageControl" method="_on_button_4_pressed"]
+[connection signal="pressed" from="EditorScene1/Tools/LoadImageControl/Button5" to="EditorScene1/Tools/LoadImageControl" method="_on_button_5_pressed"]
+[connection signal="pressed" from="EditorScene1/Tools/LoadImageControl/Button6" to="EditorScene1/Tools/LoadImageControl" method="_on_button_6_pressed"]
+[connection signal="pressed" from="EditorScene1/Tools/LoadImageControl/Button7" to="EditorScene1/Tools/LoadImageControl" method="_on_button_7_pressed"]
+[connection signal="pressed" from="EditorScene1/Tools/LoadImageControl/Button8" to="EditorScene1/Tools/LoadImageControl" method="_on_button_8_pressed"]
+[connection signal="pressed" from="EditorScene1/Tools/VisualShow/Button3" to="EditorScene1/Tools/VisualShow" method="_on_button_3_pressed"]
+[connection signal="file_selected" from="EditorScene1/FileDialog" to="EditorScene1/Tools" method="_on_file_dialog_file_selected"]
+[connection signal="pressed" from="EditorScene1/DropImage/Button" to="EditorScene1/DropImage" method="_on_button_pressed"]
+[connection signal="file_selected" from="EditorScene1/FileDialogPerson" to="EditorScene1/Tools/LoadPerson" method="_on_file_dialog_person_file_selected"]
+[connection signal="pressed" from="EditorScene1/Image/Control/Button" to="EditorScene1/Image/Control" method="_on_button_pressed"]
+[connection signal="pressed" from="EditorScene1/Image/Control2/Button" to="EditorScene1/Image/Control2" method="_on_button_pressed"]
+[connection signal="pressed" from="EditorScene1/Image/Control3/Button" to="EditorScene1/Image/Control3" method="_on_button_pressed"]
+[connection signal="pressed" from="EditorScene1/Image/Control4/Button" to="EditorScene1/Image/Control4" method="_on_button_pressed"]
+[connection signal="pressed" from="EditorScene1/Image/Control5/Button" to="EditorScene1/Image/Control5" method="_on_button_pressed"]
+[connection signal="pressed" from="EditorScene1/Image/Control6/Button" to="EditorScene1/Image/Control6" method="_on_button_pressed"]
+[connection signal="pressed" from="EditorScene1/Image/Control7/Button" to="EditorScene1/Image/Control7" method="_on_button_pressed"]
+[connection signal="pressed" from="EditorScene1/Image/Control9/Button" to="EditorScene1/Image/Control9" method="_on_button_pressed"]
+[connection signal="pressed" from="EditorScene1/Button" to="EditorScene1/Tools/Play" method="_on_button_pressed"]
+[connection signal="file_selected" from="EditorScene1/WindowFile/FileDialog" to="EditorScene1/Tools/LoadImageControl" method="_on_file_dialog_file_selected"]
+[connection signal="file_selected" from="EditorScene1/WindowFile/FileDialog2" to="EditorScene1/Tools/LoadImageControl" method="_on_file_dialog_2_file_selected"]
+[connection signal="file_selected" from="EditorScene1/WindowFile/FileDialog3" to="EditorScene1/Tools/LoadImageControl" method="_on_file_dialog_3_file_selected"]
+[connection signal="file_selected" from="EditorScene1/WindowFile/FileDialog4" to="EditorScene1/Tools/LoadImageControl" method="_on_file_dialog_4_file_selected"]
+[connection signal="file_selected" from="EditorScene1/WindowFile/FileDialog5" to="EditorScene1/Tools/LoadImageControl" method="_on_file_dialog_5_file_selected"]
+[connection signal="file_selected" from="EditorScene1/WindowFile/FileDialog6" to="EditorScene1/Tools/LoadImageControl" method="_on_file_dialog_6_file_selected"]
+[connection signal="file_selected" from="EditorScene1/WindowFile/FileDialog7" to="EditorScene1/Tools/LoadImageControl" method="_on_file_dialog_7_file_selected"]
+[connection signal="file_selected" from="EditorScene1/WindowFile/FileDialog8" to="EditorScene1/Tools/LoadImageControl" method="_on_file_dialog_8_file_selected"]
+[connection signal="file_selected" from="EditorScene1/FileDialogTiled" to="EditorScene1/ElementsWindow/MaterialsUI/Control" method="_on_file_dialog_tiled_file_selected"]
+[connection signal="pressed" from="EditorScene1/ColorRect/ButtonClose/Button" to="EditorScene1/ColorRect/ButtonClose" method="_on_button_pressed"]
+[connection signal="pressed" from="EditorScene1/ElementsWindow/Colider/Button" to="EditorScene1/ElementsWindow/Colider" method="_on_button_pressed"]
+[connection signal="pressed" from="EditorScene1/ElementsWindow/Button2" to="EditorScene1/ElementsWindow" method="_on_button_2_pressed"]
+[connection signal="pressed" from="EditorScene1/ElementsWindow/Button4" to="EditorScene1/ElementsWindow" method="_on_button_4_pressed"]
+[connection signal="pressed" from="EditorScene1/ElementsWindow/Button5" to="EditorScene1/ElementsWindow" method="_on_button_5_pressed"]
+[connection signal="pressed" from="EditorScene1/ElementsWindow/MaterialsUI/Button" to="EditorScene1/ElementsWindow" method="_on_button_pressed"]
+[connection signal="pressed" from="EditorScene1/ElementsWindow/MaterialsUI/Button2" to="EditorScene1/ElementsWindow" method="_on_button_3_pressed"]
+[connection signal="pressed" from="EditorScene1/ElementsWindow/MaterialsUI/Control/Button3" to="EditorScene1/ElementsWindow/MaterialsUI/Control" method="_on_button_3_pressed"]
+[connection signal="pressed" from="EditorScene1/ElementsWindow/MaterialsUI/Button3" to="EditorScene1/ElementsWindow" method="_on_button_7_pressed"]
+[connection signal="pressed" from="EditorScene1/ElementsWindow/MaterialsUI/Control2/Button" to="EditorScene1/ElementsWindow/MaterialsUI/Control2" method="_on_button_pressed"]
+[connection signal="pressed" from="EditorScene1/ElementsWindow/MaterialsUI/Control3/Button" to="EditorScene1/ElementsWindow/MaterialsUI/Control3" method="_on_button_pressed"]
+[connection signal="pressed" from="EditorScene1/ElementsWindow/MaterialsUI/Control4/Button" to="EditorScene1/ElementsWindow/MaterialsUI/Control4" method="_on_button_pressed"]
+[connection signal="pressed" from="EditorScene1/ElementsWindow/MaterialsUI/Control5/Button" to="EditorScene1/ElementsWindow/MaterialsUI/Control5" method="_on_button_pressed"]
+[connection signal="pressed" from="EditorScene1/ElementsWindow/MaterialsUI/Control6/Button" to="EditorScene1/ElementsWindow/MaterialsUI/Control6" method="_on_button_pressed"]
+[connection signal="pressed" from="EditorScene1/VisualScripting/Button" to="EditorScene1/VisualScripting" method="_on_button_pressed"]
+[connection signal="pressed" from="EditorScene1/VisualScripting/Control/Button2" to="EditorScene1/VisualScripting/Control" method="_on_button_2_pressed"]
+[connection signal="pressed" from="EditorScene1/VisualScripting/Control2/Button" to="EditorScene1/VisualScripting/Control2" method="_on_button_pressed"]
+[connection signal="pressed" from="EditorScene1/Control/Button2" to="EditorScene1/Control" method="_on_button_2_pressed"]
+[connection signal="pressed" from="EditorScene1/ButtonClassPanel/Button" to="EditorScene1/ButtonClassPanel" method="_on_button_pressed"]
+[connection signal="pressed" from="EditorScene1/ButtonClassPanel/Button2" to="EditorScene1/ElementsWindow" method="_on_button_D_pressed"]
+[connection signal="pressed" from="EditorScene1/ButtonClassPanel/MenuPanel/Button" to="EditorScene1/ButtonClassPanel" method="_on_button_2_pressed"]
+[connection signal="pressed" from="EditorScene1/ButtonClassPanel/MenuPanel/Button2" to="EditorScene1/ButtonClassPanel" method="_on_button_r_pressed"]
+[connection signal="pressed" from="EditorScene1/CameraControllerWindow/Button" to="EditorScene1/CameraControllerWindow" method="_on_button_pressed"]
+[connection signal="pressed" from="EditorScene1/CameraControllerWindow/Control/Button" to="EditorScene1/CameraControllerWindow/Control" method="_on_button_pressed"]
+[connection signal="pressed" from="EditorScene1/Resources/Button" to="EditorScene1/Resources" method="_on_button_pressed"]
+[connection signal="button_down" from="EditorScene1/Resources/Control/OptionButton" to="EditorScene1/Resources/Control" method="_on_option_button_button_down"]
+[connection signal="item_selected" from="EditorScene1/Resources/Control/OptionButton" to="EditorScene1/Resources/Control" method="_on_option_button_item_selected"]
+[connection signal="pressed" from="EditorScene1/HideWindowF/Button" to="EditorScene1/HideWindowF" method="_on_button_pressed"]
+[connection signal="pressed" from="EditorScene1/HideWindowF/Button2" to="EditorScene1/HideWindowF" method="_on_button_2_pressed"]
+[connection signal="pressed" from="EditorScene1/Control2/Button" to="EditorScene1/Control2" method="_on_button_pressed"]
+[connection signal="pressed" from="EditorScene1/PngToIco/Button3" to="EditorScene1/PngToIco" method="_on_button_3_pressed"]
+[connection signal="pressed" from="EditorScene1/Control3/Button" to="EditorScene1/Control3" method="_on_button_pressed"]
+[connection signal="pressed" from="EditorScene2/Tools/LoadImage" to="EditorScene2/Tools" method="_on_load_image_pressed"]
+[connection signal="pressed" from="EditorScene2/Tools/LoadPerson/LoadImage" to="EditorScene2/Tools/LoadPerson" method="_on_load_image_pressed"]
+[connection signal="pressed" from="EditorScene2/Control/Button" to="EditorScene2/Control" method="_on_button_pressed"]
+[connection signal="file_selected" from="EditorScene2/Node/FileDialog" to="EditorScene2/Tools" method="_on_file_dialog_file_selected"]
+[connection signal="file_selected" from="EditorScene2/FileDialogPerson" to="EditorScene2/Tools/LoadPerson" method="_on_file_dialog_person_file_selected"]
+[connection signal="pressed" from="EditorScene2/Exit/Button" to="EditorScene2/Exit" method="_on_button_pressed"]
+[connection signal="pressed" from="EditorScene2/Control2/Button" to="EditorScene2/Control2" method="_on_button_pressed"]
+[connection signal="pressed" from="EditorScene2/Control3/Button" to="EditorScene2/Control3" method="_on_button_pressed"]
+[connection signal="pressed" from="EditorScene2/Control4/Button" to="EditorScene2/Control4" method="_on_button_pressed"]
+[connection signal="pressed" from="SettingsEditor/Button" to="SettingsEditor" method="_on_button_pressed"]
+[connection signal="pressed" from="SettingsEditor/Control/Button" to="SettingsEditor/Control" method="_on_button_pressed"]
+[connection signal="pressed" from="SettingsEditor/Control/Button2" to="SettingsEditor/Control" method="_on_button_2_pressed"]
+[connection signal="pressed" from="SettingsEditor/Control2/Button2" to="SettingsEditor/Control2" method="_on_button_2_pressed"]
+[connection signal="pressed" from="PackageManager/Button" to="PackageManager" method="_on_button_pressed"]
+[connection signal="pressed" from="Tools/IcoMin/Button" to="Tools/IcoMin" method="_on_button_pressed"]
+[connection signal="pressed" from="Build/Button" to="Build" method="_on_button_pressed"]
+[connection signal="pressed" from="Build/Button2" to="Build" method="_on_button_2_pressed"]
+[connection signal="pressed" from="MenuEditor/Button" to="MenuEditor" method="_on_button_pressed"]
