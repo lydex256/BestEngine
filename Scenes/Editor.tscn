@@ -1,4 +1,4 @@
-[gd_scene load_steps=118 format=3 uid="uid://bsyskernfcwji"]
+[gd_scene load_steps=110 format=3 uid="uid://bsyskernfcwji"]
 
 [ext_resource type="Script" uid="uid://4vjjg06u27ib" path="res://Scripts/LoadImage.gd" id="1_qq0ej"]
 [ext_resource type="Script" uid="uid://bkxrg0p4c81fo" path="res://Scripts/Elements/ElementsShow.gd" id="2_gtjqi"]
@@ -21,20 +21,14 @@
 [ext_resource type="Script" uid="uid://dd7xj3viyas66" path="res://Scripts/LoadTiled.gd" id="16_0lqxe"]
 [ext_resource type="Script" uid="uid://c6gounjd775th" path="res://Scripts/Colider.gd" id="16_o3tqc"]
 [ext_resource type="Script" uid="uid://cac1jm7esvu4e" path="res://Scripts/Image/HideImage8.gd" id="17_ovta4"]
-[ext_resource type="Script" uid="uid://cdyn3rd3yoifc" path="res://Scripts/VisualScripting/VisualHide.gd" id="20_7hha3"]
-[ext_resource type="Texture2D" uid="uid://cfk4vcmspya5e" path="res://Scripts/VisualScripting/Image/S.png" id="20_7ot3q"]
 [ext_resource type="Script" uid="uid://808jsm7kxpfx" path="res://Scripts/Elements/HideWindow.gd" id="21_8vhm8"]
-[ext_resource type="Texture2D" uid="uid://b6xhyrwdmvcx3" path="res://Scripts/VisualScripting/Image/D.png" id="21_dg5k4"]
-[ext_resource type="Texture2D" uid="uid://dtdlc4end2jw3" path="res://Scripts/VisualScripting/Image/Sh.png" id="22_cy82k"]
 [ext_resource type="Script" uid="uid://dv5atbof2vk5s" path="res://Scripts/Elements/MaterialsY.gd" id="22_eef6k"]
 [ext_resource type="Script" uid="uid://ctii5q04ms0qn" path="res://Scripts/Elements/MaterialsVisible.gd" id="23_q5wq0"]
 [ext_resource type="Script" uid="uid://bufh1jwkvb35" path="res://Scripts/Elements/MaterialsR.gd" id="25_b7fqo"]
-[ext_resource type="Script" uid="uid://cqxjdiv6roill" path="res://Scripts/VisualScripting/BlockStartProject.gd" id="26_5wx8j"]
 [ext_resource type="Script" uid="uid://hg5kwlpv080e" path="res://Scripts/Elements/MaterialsF.gd" id="26_deu60"]
 [ext_resource type="Script" uid="uid://d27yvkhc4y1nx" path="res://Scripts/Image/hhhide.gd" id="26_kth4d"]
 [ext_resource type="Script" uid="uid://v5lexvogp4fh" path="res://Scripts/SettingsEditor/Acrylic.gd" id="28_e2x3g"]
 [ext_resource type="Script" uid="uid://mevcwgxhs5ra" path="res://Scripts/SettingsEditor/SettingsEditorHide.gd" id="28_fbgjy"]
-[ext_resource type="Script" uid="uid://d2cpone7w861v" path="res://Scripts/VisualScripting/BlockShow.gd" id="29_alboy"]
 [ext_resource type="PackedScene" uid="uid://704xmg5nekb0" path="res://Scenes/Resources/character.tscn" id="31_3qyf2"]
 [ext_resource type="Script" uid="uid://ceu323irl2y1a" path="res://Scripts/ButtonClassPanel.gd" id="32_8lxn8"]
 [ext_resource type="Script" uid="uid://d1pk4m8csqqb4" path="res://Scripts/CameraController/CameraControllerWindowHide.gd" id="33_xifnv"]
@@ -43,6 +37,7 @@
 [ext_resource type="Script" uid="uid://cfa8bq2svmphs" path="res://Scripts/ResourcesWindowHide.gd" id="36_bibm5"]
 [ext_resource type="PackedScene" uid="uid://doh3txatssjvr" path="res://Scenes/Resources/ResourcesWIndow.tscn" id="36_ebbl3"]
 [ext_resource type="Script" uid="uid://nq35405hvqii" path="res://Scripts/OptionB.gd" id="38_r4mt3"]
+[ext_resource type="Script" uid="uid://c7ueegc3jh7sl" path="res://Scripts/VisualScripting/VSMain.gd" id="39_w82wx"]
 [ext_resource type="Script" uid="uid://b1jbxwqjs52qm" path="res://Scripts/HideWindowF.gd" id="41_137os"]
 [ext_resource type="Script" uid="uid://bxkgp2b14ewyw" path="res://Scripts/ExitEditor.gd" id="42_jru20"]
 [ext_resource type="Script" uid="uid://bnb5has4njsg7" path="res://Scripts/Tools/PngToIcoShow.gd" id="43_io6qc"]
@@ -119,12 +114,6 @@ size = Vector2(0.999134, 0.996959)
 [sub_resource type="CanvasTexture" id="CanvasTexture_ygnm8"]
 
 [sub_resource type="CanvasTexture" id="CanvasTexture_q3ies"]
-
-[sub_resource type="CanvasTexture" id="CanvasTexture_7fs5f"]
-
-[sub_resource type="CanvasTexture" id="CanvasTexture_83u4i"]
-
-[sub_resource type="CanvasTexture" id="CanvasTexture_lanwg"]
 
 [sub_resource type="CanvasTexture" id="CanvasTexture_46j00"]
 
@@ -467,7 +456,7 @@ text = "Visual Scripting (Beta)"
 title = "Open a File"
 initial_position = 2
 size = Vector2i(407, 350)
-ok_button_text = "Открыть"
+ok_button_text = "Open"
 dialog_hide_on_ok = true
 file_mode = 0
 access = 2
@@ -516,7 +505,7 @@ flat = true
 title = "Open a File"
 initial_position = 2
 size = Vector2i(338, 300)
-ok_button_text = "Открыть"
+ok_button_text = "Open"
 dialog_hide_on_ok = true
 file_mode = 0
 access = 2
@@ -838,7 +827,7 @@ text = "Close Game"
 title = "Open a File"
 initial_position = 2
 size = Vector2i(387, 357)
-ok_button_text = "Открыть"
+ok_button_text = "Open"
 dialog_hide_on_ok = true
 file_mode = 0
 access = 2
@@ -849,7 +838,7 @@ show_hidden_files = true
 title = "Open a File"
 initial_position = 2
 size = Vector2i(338, 300)
-ok_button_text = "Открыть"
+ok_button_text = "Open"
 dialog_hide_on_ok = true
 file_mode = 0
 access = 2
@@ -860,7 +849,7 @@ show_hidden_files = true
 title = "Open a File"
 initial_position = 2
 size = Vector2i(407, 350)
-ok_button_text = "Открыть"
+ok_button_text = "Open"
 file_mode = 0
 access = 2
 filters = PackedStringArray("*.png; PNG, *.jpeg; JPG")
@@ -870,7 +859,7 @@ show_hidden_files = true
 title = "Open a File"
 initial_position = 2
 size = Vector2i(407, 350)
-ok_button_text = "Открыть"
+ok_button_text = "Open"
 dialog_hide_on_ok = true
 file_mode = 0
 access = 2
@@ -881,7 +870,7 @@ show_hidden_files = true
 title = "Open a File"
 initial_position = 2
 size = Vector2i(407, 350)
-ok_button_text = "Открыть"
+ok_button_text = "Open"
 dialog_hide_on_ok = true
 file_mode = 0
 access = 2
@@ -892,7 +881,7 @@ show_hidden_files = true
 title = "Open a File"
 initial_position = 2
 size = Vector2i(407, 350)
-ok_button_text = "Открыть"
+ok_button_text = "Open"
 dialog_hide_on_ok = true
 file_mode = 0
 access = 2
@@ -903,7 +892,7 @@ show_hidden_files = true
 title = "Open a File"
 initial_position = 2
 size = Vector2i(407, 350)
-ok_button_text = "Открыть"
+ok_button_text = "Open"
 dialog_hide_on_ok = true
 file_mode = 0
 access = 2
@@ -914,7 +903,7 @@ show_hidden_files = true
 title = "Open a File"
 initial_position = 2
 size = Vector2i(407, 350)
-ok_button_text = "Открыть"
+ok_button_text = "Open"
 dialog_hide_on_ok = true
 file_mode = 0
 access = 2
@@ -925,7 +914,7 @@ show_hidden_files = true
 title = "Open a File"
 initial_position = 2
 size = Vector2i(407, 350)
-ok_button_text = "Открыть"
+ok_button_text = "Open"
 dialog_hide_on_ok = true
 file_mode = 0
 access = 2
@@ -1176,112 +1165,6 @@ offset_bottom = 40.0
 
 [node name="UI" type="Node2D" parent="EditorScene1/ElementsWindow/Collision"]
 
-[node name="VisualScripting" type="Control" parent="EditorScene1"]
-visible = false
-anchors_preset = 0
-offset_right = 40.0
-offset_bottom = 40.0
-script = ExtResource("20_7hha3")
-
-[node name="Node2D" type="Node2D" parent="EditorScene1/VisualScripting"]
-
-[node name="Sprite2D" type="Sprite2D" parent="EditorScene1/VisualScripting/Node2D"]
-modulate = Color(0.262745, 0.262745, 0.262745, 1)
-position = Vector2(558, 335)
-scale = Vector2(279.75, 447.75)
-texture = SubResource("CanvasTexture_7fs5f")
-
-[node name="Sprite2D2" type="Sprite2D" parent="EditorScene1/VisualScripting/Node2D"]
-modulate = Color(0.211765, 0.211765, 0.211765, 1)
-position = Vector2(558, 130)
-scale = Vector2(280, 38)
-texture = SubResource("CanvasTexture_83u4i")
-
-[node name="Sprite2D5" type="Sprite2D" parent="EditorScene1/VisualScripting/Node2D"]
-modulate = Color(0.211765, 0.211765, 0.211765, 1)
-position = Vector2(558, 202)
-scale = Vector2(280, 12)
-texture = SubResource("CanvasTexture_83u4i")
-
-[node name="Sprite2D3" type="Sprite2D" parent="EditorScene1/VisualScripting/Node2D"]
-modulate = Color(0.211765, 0.211765, 0.211765, 1)
-position = Vector2(558, 540)
-scale = Vector2(280, 40)
-texture = SubResource("CanvasTexture_83u4i")
-
-[node name="Sprite2D4" type="Sprite2D" parent="EditorScene1/VisualScripting/Node2D"]
-modulate = Color(0.176471, 0.176471, 0.176471, 1)
-position = Vector2(595.176, 540.054)
-scale = Vector2(-205.477, -39.838)
-texture = SubResource("CanvasTexture_lanwg")
-
-[node name="CShow" type="Node2D" parent="EditorScene1/VisualScripting/Node2D"]
-
-[node name="S" type="Sprite2D" parent="EditorScene1/VisualScripting/Node2D/CShow"]
-visible = false
-position = Vector2(682, 540)
-scale = Vector2(0.290001, 0.28)
-texture = ExtResource("20_7ot3q")
-
-[node name="D" type="Sprite2D" parent="EditorScene1/VisualScripting/Node2D/CShow"]
-visible = false
-position = Vector2(617, 540)
-scale = Vector2(0.31, 0.29)
-texture = ExtResource("21_dg5k4")
-
-[node name="Sh" type="Sprite2D" parent="EditorScene1/VisualScripting/Node2D/CShow"]
-visible = false
-position = Vector2(650, 540.25)
-scale = Vector2(0.3, 0.285)
-texture = ExtResource("22_cy82k")
-
-[node name="Button" type="Button" parent="EditorScene1/VisualScripting"]
-layout_mode = 0
-offset_left = 422.0
-offset_top = 524.0
-offset_right = 488.0
-offset_bottom = 555.0
-text = "Close"
-
-[node name="Label" type="Label" parent="EditorScene1/VisualScripting"]
-layout_mode = 0
-offset_left = 461.0
-offset_top = 112.0
-offset_right = 648.0
-offset_bottom = 150.0
-theme_override_font_sizes/font_size = 25
-text = "Visual Scripting"
-
-[node name="Control" type="Control" parent="EditorScene1/VisualScripting"]
-anchors_preset = 0
-offset_right = 40.0
-offset_bottom = 40.0
-script = ExtResource("26_5wx8j")
-
-[node name="Button2" type="Button" parent="EditorScene1/VisualScripting/Control"]
-layout_mode = 0
-offset_left = 424.0
-offset_top = 155.0
-offset_right = 693.0
-offset_bottom = 192.0
-theme_override_font_sizes/font_size = 20
-text = "Start Project"
-
-[node name="Control2" type="Control" parent="EditorScene1/VisualScripting"]
-anchors_preset = 0
-offset_right = 40.0
-offset_bottom = 40.0
-script = ExtResource("29_alboy")
-
-[node name="Button" type="Button" parent="EditorScene1/VisualScripting/Control2"]
-layout_mode = 0
-offset_left = 424.0
-offset_top = 212.0
-offset_right = 693.0
-offset_bottom = 248.0
-theme_override_font_sizes/font_size = 20
-text = "Show Object"
-
 [node name="Control" type="Control" parent="EditorScene1"]
 anchors_preset = 0
 offset_right = 40.0
@@ -1497,8 +1380,8 @@ offset_top = 240.0
 offset_right = 771.0
 offset_bottom = 262.0
 theme_override_font_sizes/font_size = 10
-item_count = 2
 selected = 0
+item_count = 2
 popup/item_0/text = "None"
 popup/item_0/id = 1
 popup/item_1/text = "Sprite (1)"
@@ -1618,6 +1501,40 @@ offset_right = 1056.0
 offset_bottom = 348.0
 theme_override_font_sizes/font_size = 25
 text = "Build Game"
+
+[node name="VisualScripting" type="Control" parent="EditorScene1"]
+visible = false
+anchors_preset = 0
+offset_left = 125.0
+offset_top = 90.0
+offset_right = 1025.0
+offset_bottom = 590.0
+script = ExtResource("39_w82wx")
+
+[node name="VSPanel" type="Panel" parent="EditorScene1/VisualScripting"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -40.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VSCloseButton" type="Button" parent="EditorScene1/VisualScripting/VSPanel"]
+layout_mode = 0
+offset_left = 864.0
+offset_top = 5.0
+offset_right = 895.0
+offset_bottom = 36.0
+text = "X"
+
+[node name="VSCanvas" type="GraphEdit" parent="EditorScene1/VisualScripting"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
 
 [node name="EditorScene2" type="Control" parent="."]
 visible = false
@@ -1846,7 +1763,7 @@ text = "<Change Scene"
 title = "Open a File"
 initial_position = 2
 size = Vector2i(407, 350)
-ok_button_text = "Открыть"
+ok_button_text = "Open"
 dialog_hide_on_ok = true
 file_mode = 0
 access = 2
@@ -1857,7 +1774,7 @@ show_hidden_files = true
 title = "Open a File"
 initial_position = 2
 size = Vector2i(338, 300)
-ok_button_text = "Открыть"
+ok_button_text = "Open"
 dialog_hide_on_ok = true
 file_mode = 0
 access = 2
@@ -2180,8 +2097,8 @@ offset_left = 296.0
 offset_top = 161.0
 offset_right = 424.0
 offset_bottom = 181.0
-item_count = 2
 selected = 0
+item_count = 2
 popup/item_0/text = "Editor "
 popup/item_0/id = 0
 popup/item_1/text = "Game"
@@ -2346,9 +2263,6 @@ text = "menu editor"
 [connection signal="pressed" from="EditorScene1/ElementsWindow/MaterialsUI/Control4/Button" to="EditorScene1/ElementsWindow/MaterialsUI/Control4" method="_on_button_pressed"]
 [connection signal="pressed" from="EditorScene1/ElementsWindow/MaterialsUI/Control5/Button" to="EditorScene1/ElementsWindow/MaterialsUI/Control5" method="_on_button_pressed"]
 [connection signal="pressed" from="EditorScene1/ElementsWindow/MaterialsUI/Control6/Button" to="EditorScene1/ElementsWindow/MaterialsUI/Control6" method="_on_button_pressed"]
-[connection signal="pressed" from="EditorScene1/VisualScripting/Button" to="EditorScene1/VisualScripting" method="_on_button_pressed"]
-[connection signal="pressed" from="EditorScene1/VisualScripting/Control/Button2" to="EditorScene1/VisualScripting/Control" method="_on_button_2_pressed"]
-[connection signal="pressed" from="EditorScene1/VisualScripting/Control2/Button" to="EditorScene1/VisualScripting/Control2" method="_on_button_pressed"]
 [connection signal="pressed" from="EditorScene1/Control/Button2" to="EditorScene1/Control" method="_on_button_2_pressed"]
 [connection signal="pressed" from="EditorScene1/ButtonClassPanel/Button" to="EditorScene1/ButtonClassPanel" method="_on_button_pressed"]
 [connection signal="pressed" from="EditorScene1/ButtonClassPanel/Button2" to="EditorScene1/ElementsWindow" method="_on_button_D_pressed"]
@@ -2364,6 +2278,7 @@ text = "menu editor"
 [connection signal="pressed" from="EditorScene1/Control2/Button" to="EditorScene1/Control2" method="_on_button_pressed"]
 [connection signal="pressed" from="EditorScene1/PngToIco/Button3" to="EditorScene1/PngToIco" method="_on_button_3_pressed"]
 [connection signal="pressed" from="EditorScene1/Control3/Button" to="EditorScene1/Control3" method="_on_button_pressed"]
+[connection signal="pressed" from="EditorScene1/VisualScripting/VSPanel/VSCloseButton" to="EditorScene1/VisualScripting" method="_on_vs_close_button_pressed"]
 [connection signal="pressed" from="EditorScene2/Tools/LoadImage" to="EditorScene2/Tools" method="_on_load_image_pressed"]
 [connection signal="pressed" from="EditorScene2/Tools/LoadPerson/LoadImage" to="EditorScene2/Tools/LoadPerson" method="_on_load_image_pressed"]
 [connection signal="pressed" from="EditorScene2/Control/Button" to="EditorScene2/Control" method="_on_button_pressed"]
